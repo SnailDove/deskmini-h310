@@ -15,6 +15,8 @@
 -  Ethernet/WIFI/Bluetooth/Audio/USB&EX-USB/Sensors
 -  DP/HDMI dual monitor output
 -  Shutdown、Sleep
+-  AppStore、ICloud、AirDrop、Handoff 
+-  机箱温度变化的时候，系统对风扇能自动调速（我用的是猫扇）
 
 ### 未完成功能
 
