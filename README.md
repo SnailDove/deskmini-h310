@@ -36,9 +36,9 @@
 
 - VideoProc: H264/HEVC/Hardware Decoder
 
-    ![](https://github.com/SnailDove/deskmini310/blob/master/VideoProc.png)
+    ![](./VideoProc.png)
 
--  机箱温度变化的时候，系统对风扇能自动调速（我用的是猫扇）
+-  系统对风扇自动调速
 
 ### 未完成功能
 
