@@ -34,7 +34,7 @@
 
 - AppStore/ICloudAirDrop/Handoff 
 
-- VideoProc: H264/HEVC/HardDecoder
+- VideoProc: H264/HEVC/Hardware Decoder
 
     ![](https://github.com/SnailDove/deskmini310/blob/master/VideoProc.png)
 
