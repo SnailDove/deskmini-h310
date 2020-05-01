@@ -32,6 +32,7 @@
 -  AppStore/ICloudAirDrop/Handoff 
 -  VideoProc: H264/HEVC/Hardware Decoder
 -  系统对风扇自动调速
+-  CPU 睿频
 
 ### 未完成功能
 
