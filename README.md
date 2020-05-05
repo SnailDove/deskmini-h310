@@ -36,7 +36,7 @@
 
 - VideoProc(仅供参考，Final Cut X Pro才是真正的验机工具): H264/HEVC/Hardware Decoder
 
-    ![](http://q83p23d9i.bkt.clouddn.com/snaildove.github.io/deskmini310/VideoProc.png)
+    ![](http://q9kvrafcq.bkt.clouddn.com/snaildove.github.io/deskmini310/VideoProc.png)
 
 - 系统对风扇自动调速
 
