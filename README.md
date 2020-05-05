@@ -68,7 +68,7 @@
 
     - 下载镜像以后，注意校验下载的镜像有木有损坏，**必须校验**，不能跳过！
 
-        黑果小兵的 macOS Catalina 10.15.4(19E287) Installer for Clover 5109 and WEPE Support UEFI and MBR.dmg的MD5值为 c84ebeeb84c074729c11afca91c6f952
+        黑果小兵的 `macOS Catalina 10.15.4(19E287) Installer for Clover 5109 and WEPE Support UEFI and MBR.dmg` 的MD5值为 `c84ebeeb84c074729c11afca91c6f952`
 
 
 #### 黑苹果上手学习资源
@@ -82,10 +82,6 @@
 4. [【黑苹果】MacOS Catalina 10.15.4 详细安装过程实录(附有工具下载链接)_](https://www.bilibili.com/video/BV1da4y147my)
 
 5. [【AMD&intel】聪聪黑苹果安装工具3.0 零基础一键安装 全网最简单教程 兼容OpenCore及Clover EFI](https://www.bilibili.com/video/BV1iE41157Vd/?spm_id_from=333.788.videocard.5)
-
-
-
-
 
 ## 致谢
 
