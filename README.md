@@ -44,7 +44,7 @@
     
     ![未开启HiDPI](./1080p-NotHiDPI.png)
     
-    ![](./2K-NotHiDPI.jpeg)
+    ![未开启HiDPI-2K](./2K-NotHiDPI.jpeg)
 
   
 
