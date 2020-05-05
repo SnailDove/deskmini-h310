@@ -81,3 +81,15 @@
 
 5. [【AMD&intel】聪聪黑苹果安装工具3.0 零基础一键安装 全网最简单教程 兼容OpenCore及Clover EFI](https://www.bilibili.com/video/BV1iE41157Vd/?spm_id_from=333.788.videocard.5)
 
+
+
+
+
+## 致谢
+
+1. https://github.com/cnsilvan/deskmini310_hackintosh
+2. https://github.com/zsyshuyang/Hackintosh-EFI-For-Deskmini-310-i5-9400-DW1560
+3. https://github.com/liminghuang/asrock_deskmini310_hackintosh
+4. https://github.com/yuqi/Deskmini-310-Hackintosh
+5. https://github.com/isNextJuly/Hackintosh-EFI-for-deskmini-310-i7-8700
+6. https://github.com/leogitpro/Hackintosh-DeskMini310
