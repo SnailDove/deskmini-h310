@@ -35,10 +35,13 @@
 - AppStore/ICloudAirDrop/Handoff 
 
 - HiDPI
+    下面第一张是开启HiDPI，第二张没有开启HiDPI
+    ![开启HiDPI](https://github.com/SnailDove/deskmini310/blob/master/HiDPI.png)
+    ![未开启HiDPI](https://github.com/SnailDove/deskmini310/blob/master/NotHiDPI.png)
 
 - VideoProc(仅供参考，Final Cut X Pro才是真正的验机工具): H264/HEVC/Hardware Decoder
 
-    ![](http://q9kvrafcq.bkt.clouddn.com/snaildove.github.io/deskmini310/VideoProc.png)
+    ![](https://github.com/SnailDove/deskmini310/blob/master/VideoProc.png)
 
 - 系统对风扇自动调速
 
