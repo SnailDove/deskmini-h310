@@ -35,6 +35,7 @@
 - AppStore/ICloudAirDrop/Handoff 
 
 - HiDPI
+    下面第一张是开启HiDPI，第二张没有开启HiDPI
     ![开启HiDPI](https://github.com/SnailDove/deskmini310/blob/master/HiDPI.png)
     ![未开启HiDPI](https://github.com/SnailDove/deskmini310/blob/master/NotHiDPI.png)
 
