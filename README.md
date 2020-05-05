@@ -35,6 +35,8 @@
 - AppStore/ICloudAirDrop/Handoff 
 
 - HiDPI
+    ![](https://github.com/SnailDove/deskmini310/blob/master/HiDPI.png)
+    ![](https://github.com/SnailDove/deskmini310/blob/master/NotHiDPI.png)
 
 - VideoProc(仅供参考，Final Cut X Pro才是真正的验机工具): H264/HEVC/Hardware Decoder
 
