@@ -34,6 +34,8 @@
 
 - AppStore/ICloudAirDrop/Handoff 
 
+- HiDPI
+
 - VideoProc(仅供参考，Final Cut X Pro才是真正的验机工具): H264/HEVC/Hardware Decoder
 
     ![](http://q9kvrafcq.bkt.clouddn.com/snaildove.github.io/deskmini310/VideoProc.png)
@@ -64,7 +66,7 @@
 
 2. 镜像使用的是：
 
-    -  黑果小兵分享的 [10.15.4 19E287 双EFI 分区版](https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html#more)
+    -  黑果小兵分享的 [10.15.4 19E287 双EFI 分区版](https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html#more) 
 
     - 下载镜像以后，注意校验下载的镜像有木有损坏，**必须校验**，不能跳过！
 
@@ -74,14 +76,11 @@
 #### 黑苹果上手学习资源
 
 1. [【知其然01】黑苹果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
-
 2. [【知其然02】黑苹果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
-
 3. [【知其然03】那些黑苹果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
-
-4. [【黑苹果】MacOS Catalina 10.15.4 详细安装过程实录(附有工具下载链接)_](https://www.bilibili.com/video/BV1da4y147my)
-
-5. [【AMD&intel】聪聪黑苹果安装工具3.0 零基础一键安装 全网最简单教程 兼容OpenCore及Clover EFI](https://www.bilibili.com/video/BV1iE41157Vd/?spm_id_from=333.788.videocard.5)
+4. [【黑苹果】MacOS Catalina 10.15.4 详细安装过程实录(附有工具下载链接)](https://www.bilibili.com/video/BV1da4y147my)
+5. [HiDPI是什么？以及黑苹果如何开启HiDPI](https://www.sqlsec.com/2018/09/hidpi.html)
+6. [【AMD&intel】聪聪黑苹果安装工具3.0 零基础一键安装 全网最简单教程 兼容OpenCore及Clover EFI](https://www.bilibili.com/video/BV1iE41157Vd/?spm_id_from=333.788.videocard.5)
 
 ## 致谢
 
