@@ -35,21 +35,19 @@
 - AppStore/ICloudAirDrop/Handoff 
 
 - HiDPI
+  
+    开启HiDPI以后，在偏好设置里面选择（我是便携显示器2k超薄款）：![HiDPI-setting.jpeg](./HiDPI-setting.jpeg)
     
-    开启HiDPI以后，在偏好设置里面选择（我是便携显示器2k超薄款）：
-    
-![HiDPI-setting.jpeg](./HiDPI-setting.jpeg)
-    
-    
-    
-    下面第一张是开启HiDPI-720p，第二张1080p，第三张2k
+    下面第一张是开启HiDPI-720p，第二张1080p，第三张2k:
     
     ![开启HiDPI](./HiDPI.png)
     
     ![未开启HiDPI](./1080p-NotHiDPI.png)
     
     ![](./2K-NotHiDPI.jpeg)
-    
+
+  
+
 - VideoProc(仅供参考，Final Cut X Pro才是真正的验机工具): H264/HEVC/Hardware Decoder
 
     ![](./VideoProc.png)
