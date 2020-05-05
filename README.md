@@ -39,6 +39,7 @@
     ![](http://q83p23d9i.bkt.clouddn.com/snaildove.github.io/deskmini310/VideoProc.png)
 
 -  系统对风扇自动调速
+-  CPU 睿频
 
 ### 未完成功能
 
@@ -78,5 +79,3 @@
 4. [【黑苹果】MacOS Catalina 10.15.4 详细安装过程实录(附有工具下载链接)_](https://www.bilibili.com/video/BV1da4y147my)
 
 5. [【AMD&intel】聪聪黑苹果安装工具3.0 零基础一键安装 全网最简单教程 兼容OpenCore及Clover EFI](https://www.bilibili.com/video/BV1iE41157Vd/?spm_id_from=333.788.videocard.5)
-
-    
