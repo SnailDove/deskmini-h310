@@ -34,7 +34,7 @@
 
 - AppStore/ICloudAirDrop/Handoff 
 
-- VideoProc(仅供参考，Final cut x pro才是真正的验机工具): H264/HEVC/Hardware Decoder
+- VideoProc(仅供参考，Final Cut X Pro才是真正的验机工具): H264/HEVC/Hardware Decoder
 
     ![](http://q83p23d9i.bkt.clouddn.com/snaildove.github.io/deskmini310/VideoProc.png)
 
@@ -58,7 +58,10 @@
 
 #### 本机型相关资源
 
-1. 目前我本人使用 efi : https://github.com/cnsilvan/deskmini310_hackintosh 大佬的分享
+1. 目前我本人使用 efi : https://github.com/cnsilvan/deskmini310_hackintosh 大佬的分享，然后进一步修改如下：
+
+    - 电源选项
+    - 开机跳过Clover
 
 2. 镜像使用的是：
 
@@ -67,7 +70,7 @@
     - 下载镜像以后，注意校验下载的镜像有木有损坏，**必须校验**，不能跳过！
 
         黑果小兵的 macOS Catalina 10.15.4(19E287) Installer for Clover 5109 and WEPE Support UEFI and MBR.dmg的MD5值为 c84ebeeb84c074729c11afca91c6f952
-    
+
 
 #### 黑苹果上手学习资源
 
