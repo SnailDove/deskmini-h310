@@ -22,7 +22,7 @@
 
 自从疫情，全部涨价，我购买日期3月中旬，年前起码便宜六七百。小白第一次装机，没有旧配件和垃圾佬的水平，咸鱼也不碰，以后捡垃圾玩玩😆，不着急的小伙伴等6.18或者疫情过去又或者Intel新一代的CPU发布，到那时候价格比较香。我的黑苹果跑分如下，跟其他白苹果的对比：
 
-![](./Versus.jpg)
+![对比图，用梯子才能看到图](./Versus.jpg)
 
 ## 装机结果
 
@@ -38,7 +38,7 @@
 
 - VideoProc(仅供参考，Final Cut X Pro才是真正的验机工具): H264/HEVC/Hardware Decoder
 
-    ![](./VideoProc.png)
+    ![VideoProc，用梯子才能看到图](./VideoProc.png)
 
 - 系统对风扇自动调速
 
@@ -47,21 +47,21 @@
 
     开启HiDPI以后，在偏好设置里面选择（我是便携超薄显示器 2k 72%NTSC约等于100%SRGB）：
 
-    ![HiDPI-setting.jpeg](./HiDPI-setting.jpeg)
+    ![HiDPI-setting.jpeg，用梯子才能看到图](./HiDPI-setting.jpeg)
 
     下面第一张是开启HiDPI-720p，第二张1080p，第三张2k，对比一下观感:
 
     1. 开启HiDPI-720p
 
-        ![开启HiDPI](./HiDPI.png)
+        ![开启HiDPI，用梯子才能看到图](./HiDPI.png)
 
     2. 1080p
     
-        ![未开启HiDPI](./1080p-NotHiDPI.png)
+        ![未开启HiDPI，用梯子才能看到图](./1080p-NotHiDPI.png)
     
     3. 2k
     
-        ![未开启HiDPI-2K](./2K-NotHiDPI.jpeg)
+        ![未开启HiDPI-2K，用梯子才能看到图](./2K-NotHiDPI.jpeg)
 
 ### 未完成功能
 
