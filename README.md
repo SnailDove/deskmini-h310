@@ -45,7 +45,7 @@
 - CPU 睿频
 - HiDPI
 
-    开启HiDPI以后，在偏好设置里面选择（我是便携显示器2k超薄款）：
+    开启HiDPI以后，在偏好设置里面选择（我是便携超薄显示器 2k 72%NTSC约等于100%SRGB）：
 
     ![HiDPI-setting.jpeg](./HiDPI-setting.jpeg)
 
