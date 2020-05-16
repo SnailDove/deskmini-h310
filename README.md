@@ -1,6 +1,6 @@
 ## 前言
 
-我是**第一次**装机且**第一次**装黑苹果，**我只对我自己试验过的的机型，硬件，系统镜像以及使用的efi和装机工具有发言权，其他我不懂，勿扰**。对于教程和资源下文都可以获取。鼓励大家有能力要支持正版软件，一方面，任何成果都是工程师辛苦付出的结果；再者，请大家遵守相关法律法规，**本人玩这个黑果，只是个人娱乐，如有侵犯别人版权和商业利益，请告知本人，删除相关侵权的资源**！！！
+我是**第一次**装机且**第一次**装黑苹果，在大佬的帮助下已经几乎完美黑果，**我只对我自己试验过的的机型，硬件，系统镜像以及使用的efi和装机工具有发言权，其他我不懂，勿扰**。对于教程和资源下文都可以获取。鼓励大家有能力要支持正版软件，一方面，任何成果都是工程师辛苦付出的结果；再者，请大家遵守相关法律法规，**本人玩这个黑果，只是个人娱乐，如有侵犯别人版权和商业利益，请告知本人删除相关侵权的资源**！！！
 
 ## 本人需求
 
@@ -34,7 +34,7 @@
 
 - Ethernet/WIFI/Bluetooth/Audio/USB&EX-USB/Sensors
 
-- DP/HDMI dual monitor output
+- DP/HDMI dual monitor output 两口开机睡眠均能唤醒不黑屏
 
 - Shutdown/Sleep
 
@@ -70,7 +70,6 @@
 ### 未完成功能
 
 1. VGA ：mac系统不支持vga！
-2. **重点**，DP输出正常，然而HDMI视频输出的唤醒点不亮屏幕，很多15.4系统用户（尤其是用核显uhd630的用户）都反馈，只有当睡眠唤醒的时候，主机/鼠标/键盘等其他都正常，唯独HDMI视频接口输出的屏幕不亮，需要重新插拔一下HDMI输出接口的视频线或者对屏幕重新开关机，本人就不管了，但是有这个需求的用户需要注意。(我下文的学习资源链接中有修复教程，愿意进一步尝试的小伙伴，欢迎探索，毕竟这才是黑果的精神)
 
 ## 装机过程
 
@@ -104,9 +103,12 @@
 
 #### 本机型相关资源
 
-1. 目前我本人使用 **EFI** : https://github.com/cnsilvan/deskmini310_hackintosh 大佬的分享，然后进一步修改如下：
+1. 目前我本人使用 **EFI** : https://github.com/zsyshuyang/Hackintosh-EFI-For-Deskmini-310-i5-9400-DW1560 大佬的分享，然后进一步修复如下功能：
 
+    - 修复了HDMI口开机和睡醒黑屏问题
+        - 如果您的hackintosh从睡眠中无信号唤醒，在Clover Configurator中将你的config.plist的Boot中将`igfxonln = 1`添加到您的启动参数中即可。
     - 电源选项
+        - 在Clover Configurator中将你的config.plist文件中点击ACPI，在ACPI页面右下角的`PluginType`选项勾选即可。
     - 开机跳过Clover选择系统界面，直接进入白苹果系统的的加载进度条，生活工作基本上不需要Windows，为了以防万一也已经装了Windows虚拟机。
     - 开启HiDPI
 
@@ -175,4 +177,7 @@
 4. https://github.com/yuqi/Deskmini-310-Hackintosh
 5. https://github.com/isNextJuly/Hackintosh-EFI-for-deskmini-310-i7-8700
 6. https://github.com/leogitpro/Hackintosh-DeskMini310
+7. https://github.com/csrutil/DeskMini
+
+
 
