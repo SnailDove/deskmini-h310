@@ -237,7 +237,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>slide=0</string>
+		<string>slide=0 igfxonln=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
