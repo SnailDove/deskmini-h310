@@ -1,5 +1,3 @@
-# 小白黑果记录 
-
 ## 前言
 
 我是**第一次**装机且**第一次**装黑苹果，**我只对我自己试验过的的机型，硬件，系统镜像以及使用的efi和装机工具有发言权，其他我不懂，勿扰**。对于教程和资源下文都可以获取。鼓励大家有能力要支持正版软件，一方面，任何成果都是工程师辛苦付出的结果；再者，请大家遵守相关法律法规，**本人玩这个黑果，只是个人娱乐，如有侵犯别人版权和商业利益，请告知本人，删除相关侵权的资源**！！！
@@ -75,6 +73,28 @@
 2. **重点**，DP输出正常，然而HDMI视频输出的唤醒点不亮屏幕，很多15.4系统用户（尤其是用核显uhd630的用户）都反馈，只有当睡眠唤醒的时候，主机/鼠标/键盘等其他都正常，唯独HDMI视频接口输出的屏幕不亮，需要重新插拔一下HDMI输出接口的视频线或者对屏幕重新开关机，本人就不管了，但是有这个需求的用户需要注意。
 
 ## 装机过程
+
+### Bios设置（P4.2）插入U盘开始装MacOS开始前设置
+
+- Load UEFI Defaults(F9)
+
+- Advanced
+
+    - Onboard HD Audio: Enabled
+    - USB Configuration, XHCI Hand-off, Enabled
+    - Super IO Configuration, Serial Port, Disabled（必须）
+
+- Security
+
+    - Secure Boot, Disabled(by default)
+
+- CSM, only UEFI
+
+- CPU Chip Set  
+
+    CPU C STATE SUPPORT ENABLED->CFG Lock Disabled
+
+    
 
 我这个小白根据这个 [视频教程](https://www.bilibili.com/video/BV1da4y147my) ：我按照视频教程操作到 13:11，因为我的m2型号的固态硬盘上只安装MacOS，所以我只进行到 13:11，**然后不要拔掉U盘**，将U盘里面的efi（注意不是winpe目录下的efi，而是跟winpe同一级目录的efi文件夹）替换掉装完机的MacOS系统的，这一步的目的是（通俗理解）：让新装的系统开机进入系统前引导的时候，需要这个efi文件夹下的内容去欺骗MacOS，让MacOS以为目前的的硬件就是白苹果对应的硬件，这样才能正常进入MacOS系统。下一步就是：https://blog.csdn.net/weixin_43912833/article/details/102408559 。
 
