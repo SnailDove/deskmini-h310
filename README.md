@@ -8,7 +8,7 @@
 
 我作为小白用户只求装完机，安安静静地使用 MacOS 带来的便利性，装机越简单功能越完善越好，任何软件系统重要的是服务用户的使用，我也不会不断升级，系统稳定最重要。
 
-![](https://camo.githubusercontent.com/da32bb12efddacc607d03813114a923400986a94/687474703a2f2f71396b7672616663712e626b742e636c6f7564646e2e636f6d2f736e61696c646f76652e6769746875622e696f2f6465736b6d696e693331302f6465736b6d696e693331302d6861636b6572732545372542452541342545342542412538432545372542422542342545372541302538312e706e67)![](deskmini-h310_黑果群.png)
+![deskmini-h310黑果群——出墙才能看到](deskmini-h310_黑果群.png)
 
 ## 硬件配置
 
@@ -108,7 +108,9 @@
 3. [【知其然03】那些黑苹果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
 4. [【黑苹果】MacOS Catalina 10.15.4 详细安装过程实录(附有工具下载链接)](https://www.bilibili.com/video/BV1da4y147my)
 5. [HiDPI是什么？以及黑苹果如何开启HiDPI](https://www.sqlsec.com/2018/09/hidpi.html)
-6. [【AMD&intel】聪聪黑苹果安装工具3.0 零基础一键安装 全网最简单教程 兼容OpenCore及Clover EFI](https://www.bilibili.com/video/BV1iE41157Vd/?spm_id_from=333.788.videocard.5)
+6. [教程：利用Hackintool打开第8代核显HDMI/DVI输出的正确姿势](https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html)
+7. [Mojave UHD 630 on i5 8400 issues, have tried everything](https://www.tonymacx86.com/threads/mojave-uhd-630-on-i5-8400-issues-have-tried-everything.269368/page-3#post-1889723)
+8. [Guide: Intel Framebuffer patching using WhateverGreen](https://www.tonymacx86.com/threads/guide-intel-framebuffer-patching-using-whatevergreen.256490/post-1856330)
 
 ## 致谢
 
