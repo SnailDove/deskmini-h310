@@ -123,16 +123,49 @@
 
 #### 黑苹果上手学习资源
 
-1. [【知其然01】黑苹果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
-2. [【知其然02】黑苹果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
-3. [【知其然03】那些黑苹果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
-4. [【黑苹果】MacOS Catalina 10.15.4 详细安装过程实录(附有工具下载链接)](https://www.bilibili.com/video/BV1da4y147my)
-5. [HiDPI是什么？以及黑苹果如何开启HiDPI](https://www.sqlsec.com/2018/09/hidpi.html)
-6. [教程：利用Hackintool打开第8代核显HDMI/DVI输出的正确姿势](https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html)
-7. [黑苹果-HDMI输出简单教程](https://www.bilibili.com/video/BV1AT4y157oJ)
-8. [Mojave UHD 630 on i5 8400 issues, have tried everything](https://www.tonymacx86.com/threads/mojave-uhd-630-on-i5-8400-issues-have-tried-everything.269368/page-3#post-1889723)
-9. [Guide: Intel Framebuffer patching using WhateverGreen](https://www.tonymacx86.com/threads/guide-intel-framebuffer-patching-using-whatevergreen.256490/post-1856330)
-10. [Hackintool教程——给FrameBuffer打补丁以驱动核显](https://www.bilibili.com/v/technology/wild/)
+1. oc引导，傻瓜式教程，内含EFI：[华擎 DeskMini 310 黑苹果（hackintosh） 10.15（Catalina） OpenCore配置](https://www.bzqll.com/2020/01/329.html)
+2. [【知其然01】黑苹果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
+3. [【知其然02】黑苹果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
+4. [【知其然03】那些黑苹果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
+5. [【黑苹果】MacOS Catalina 10.15.4 详细安装过程实录(附有工具下载链接)](https://www.bilibili.com/video/BV1da4y147my)
+6. [HiDPI是什么？以及黑苹果如何开启HiDPI](https://www.sqlsec.com/2018/09/hidpi.html)
+7. [教程：利用Hackintool打开第8代核显HDMI/DVI输出的正确姿势](https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html)
+8. [黑苹果-HDMI输出简单教程](https://www.bilibili.com/video/BV1AT4y157oJ)
+9. [Mojave UHD 630 on i5 8400 issues, have tried everything](https://www.tonymacx86.com/threads/mojave-uhd-630-on-i5-8400-issues-have-tried-everything.269368/page-3#post-1889723)
+10. [Guide: Intel Framebuffer patching using WhateverGreen](https://www.tonymacx86.com/threads/guide-intel-framebuffer-patching-using-whatevergreen.256490/post-1856330)
+11. [Hackintool教程——给FrameBuffer打补丁以驱动核显](https://www.bilibili.com/v/technology/wild/)
+
+## Mac 软件分享
+
+
+1. 外接显示器亮度音量调节：https://github.com/the0neyouseek/MonitorControl
+2. Kext缓存刷新工具（升级系统必备）——Kext Utility：http://bbs.pcbeta.com/viewthread-1802862-1-1.html
+3. Kext驱动更新工具（升级系统必备）——Kext Updater
+4. 打补丁工具——Hackintool
+5. 系统监控工具（CPU，温度，硬盘，风扇，网速，内存）——System Monitor
+6. 截图软件（可以滚动截图）——Xnip
+7. 翻译软件：Copytranslator
+8. 词典软件：欧路词典
+9. PDF：福昕阅读器
+10. Markdown编辑器：Typora或者Vim
+11. 录屏软件：iShot
+12. 动图软件：LICECap
+13. 脑图软件：XMind
+14. 网速工具：网速管家
+15. MacOS跑分工具：GeekBench，CineBench R15
+16. 各大视频网站视频下载工具：Downie
+17. 视频全能播放器：IINA
+18. 快捷键提示工具：CheatSheet
+19. 截图文本扫描（顺带翻译）：Text Scanner
+20. Office套件：WPS，Office 2019 Mac 版下载 https://blog.tlhub.cn/Office-2019-for-Mac
+
+**MacOS软件分享网站：**
+
+1. https://xclient.info
+2. AppStore
+3. 每个软件官网
+4. github
+5. brew cast install
 
 ## 致谢
 
