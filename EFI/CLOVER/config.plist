@@ -259,7 +259,7 @@
 	<key>CPU</key>
 	<dict>
 		<key>HWPEnable</key>
-		<false/>
+		<true/>
 		<key>TurboDisable</key>
 		<false/>
 		<key>UseARTFrequency</key>
@@ -433,9 +433,9 @@
 		<key>CsrActiveConfig</key>
 		<string>0x3</string>
 		<key>MLB</key>
-		<string>{Your Serial Number}</string>
+		<string>C07011902J9KXPG8C</string>
 		<key>ROM</key>
-		<data>apMmlC1X</data>
+		<data>5S/XjZs+</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -480,16 +480,16 @@
 		<key>ProductName</key>
 		<string>Macmini8,1</string>
 		<key>SerialNumber</key>
-		<string>{Your Serial Number}</string>
+		<string>C07Z50LPJYVX</string>
 		<key>SmUUID</key>
-		<string>{Your SmUUID}</string>
+		<string>06529001-7FB4-4D9E-801D-CB62808D9B3E</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>1AF86A45-B3FB-43D7-91E7-F64938942D57</string>
+		<string>06529001-7FB4-4D9E-801D-CB62808D9B3E</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
