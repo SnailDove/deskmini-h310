@@ -141,25 +141,26 @@
 
 
 1. 外接显示器亮度音量调节：https://github.com/the0neyouseek/MonitorControl
-2. Kext缓存刷新工具（升级系统必备）——Kext Utility：http://bbs.pcbeta.com/viewthread-1802862-1-1.html
-3. Kext驱动更新工具（升级系统必备）——Kext Updater
-4. 打补丁工具——Hackintool
-5. 系统监控工具（CPU，温度，硬盘，风扇，网速，内存）——System Monitor
-6. 截图软件（可以滚动截图）——Xnip
-7. 翻译软件：Copytranslator
-8. 词典软件：欧路词典
-9. PDF：福昕阅读器
-10. Markdown编辑器：Typora或者Vim
-11. 录屏软件：iShot
-12. 动图软件：LICECap
-13. 脑图软件：XMind
-14. 网速工具：网速管家
-15. MacOS跑分工具：GeekBench，CineBench R15
-16. 各大视频网站视频下载工具：Downie
-17. 视频全能播放器：IINA
-18. 快捷键提示工具：CheatSheet
-19. 截图文本扫描（顺带翻译）：Text Scanner
-20. Office套件：WPS，Office 2019 Mac 版下载 https://blog.tlhub.cn/Office-2019-for-Mac
+2. 分别调节每个应用程序的音量：Sound Control
+3. Kext缓存刷新工具（升级系统必备）——Kext Utility：http://bbs.pcbeta.com/viewthread-1802862-1-1.html
+4. Kext驱动更新工具（升级系统必备）——Kext Updater
+5. 打补丁工具——Hackintool
+6. 系统监控工具（CPU，温度，硬盘，风扇，网速，内存）——System Monitor
+7. 截图软件（可以滚动截图）——Xnip
+8. 翻译软件：Copytranslator
+9. 词典软件：欧路词典
+10. PDF：福昕阅读器
+11. Markdown编辑器：Typora或者Vim
+12. 录屏软件：iShot
+13. 动图软件：LICECap
+14. 脑图软件：XMind
+15. 网速工具：网速管家
+16. MacOS跑分工具：GeekBench，CineBench R15
+17. 各大视频网站视频下载工具：Downie
+18. 视频全能播放器：IINA
+19. 快捷键提示工具：CheatSheet
+20. 截图文本扫描（顺带翻译）：Text Scanner
+21. Office套件：WPS，Office 2019 Mac 版下载 https://blog.tlhub.cn/Office-2019-for-Mac
 
 **MacOS软件分享网站：**
 
