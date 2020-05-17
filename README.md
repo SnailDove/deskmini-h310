@@ -172,6 +172,10 @@
 4. github
 5. brew cast install
 
+#### MacOS使用技巧
+
+1. [MacBook、Mac新手必备的20个小技巧，效率提升](https://www.bilibili.com/video/BV19t4y117Lr/)
+
 ## 致谢
 
 1. https://github.com/cnsilvan/deskmini310_hackintosh
