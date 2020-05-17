@@ -433,7 +433,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x3</string>
 		<key>MLB</key>
-		<string>C07011902J9KXPG8C</string>
+		<string>{自己生成}</string>
 		<key>ROM</key>
 		<data>5S/XjZs+</data>
 	</dict>
@@ -450,7 +450,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C07011902J9KXPG8C</string>
+		<string>{你自己生成的板子序列号}</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -480,16 +480,16 @@
 		<key>ProductName</key>
 		<string>Macmini8,1</string>
 		<key>SerialNumber</key>
-		<string>C07Z50LPJYVX</string>
+		<string>{你自己生成的序列码}</string>
 		<key>SmUUID</key>
-		<string>06529001-7FB4-4D9E-801D-CB62808D9B3E</string>
+		<string>{你自己生成的UUID}</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>06529001-7FB4-4D9E-801D-CB62808D9B3E</string>
+		<string>{你自己生成的UUID}</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
