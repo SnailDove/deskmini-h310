@@ -34,11 +34,13 @@
 
 - Ethernet/WIFI/Bluetooth/Audio/USB&EX-USB/Sensors
 
-- DP/HDMI dual monitor output 两口开机睡眠均能唤醒不黑屏
+- DP/HDMI dual monitor output **两口开机睡眠均能唤醒不黑屏**
 
 - Shutdown/Sleep
 
 - AppStore/ICloudAirDrop/Handoff 
+
+- HWP enable: **按照自己的意愿设置CPU的最低、日常想要的频率、最高频率**
 
 - VideoProc(仅供参考，Final Cut X Pro才是真正的验机工具): H264/HEVC/Hardware Decoder
 
@@ -47,6 +49,7 @@
 - 系统对风扇自动调速
 
 - CPU 睿频
+
 - HiDPI
 
     开启HiDPI以后，在偏好设置里面选择（我是便携超薄显示器 2k 72%NTSC约等于100%SRGB）：
@@ -107,10 +110,13 @@
 
     - 修复了HDMI口开机和睡醒黑屏问题（即无信号问题）
         - 在Clover Configurator中将你的config.plist的Boot中将`igfxonln = 1`添加到您的启动参数中即可。详解参考：http://bbs.pcbeta.com/viewthread-1850729-1-1.html
-    - 电源选项
+    - 电源选项：加载原生电源管理
         - 在Clover Configurator中将你的config.plist文件中点击ACPI，在ACPI页面右下角的`PluginType`选项勾选即可。
     - 开机跳过Clover选择系统界面，直接进入白苹果系统的的加载进度条，生活工作基本上不需要Windows，为了以防万一也已经装了Windows虚拟机。
+        - https://baijiahao.baidu.com/s?id=1651061346132267912&wfr=spider&for=pc
     - 开启HiDPI
+    - HAP：Intel cpu 功耗管理，启用HWP即可锁住CPU最高频率
+        - http://bbs.pcbeta.com/viewthread-1798057-1-1.html
 
     我已经将我的 **EFI** 分享到本页面了。
 
@@ -146,7 +152,7 @@
 4. Kext缓存刷新工具（升级系统必备）——Kext Utility：http://bbs.pcbeta.com/viewthread-1802862-1-1.html
 5. Kext驱动更新工具（升级系统必备）——Kext Updater
 6. 打补丁工具——Hackintool
-7. 系统监控工具（CPU，温度，硬盘，风扇，网速，内存）——System Monitor
+7. 系统监控工具（CPU，温度，硬盘，风扇，网速，内存，GPU）——iStat Menus
 8. 截图软件（可以滚动截图）——Xnip
 9. 翻译软件：Copytranslator
 10. 词典软件：欧路词典
@@ -179,12 +185,22 @@
 ## 致谢
 
 1. https://github.com/cnsilvan/deskmini310_hackintosh
+
 2. https://github.com/zsyshuyang/Hackintosh-EFI-For-Deskmini-310-i5-9400-DW1560
+
 3. https://github.com/liminghuang/asrock_deskmini310_hackintosh
+
 4. https://github.com/yuqi/Deskmini-310-Hackintosh
+
 5. https://github.com/isNextJuly/Hackintosh-EFI-for-deskmini-310-i7-8700
+
 6. https://github.com/leogitpro/Hackintosh-DeskMini310
+
 7. https://github.com/csrutil/DeskMini
+
+8. [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
+
+    
 
 
 
