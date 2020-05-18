@@ -115,7 +115,7 @@
     - 开机跳过Clover选择系统界面，直接进入白苹果系统的的加载进度条，生活工作基本上不需要Windows，为了以防万一也已经装了Windows虚拟机。
         - https://baijiahao.baidu.com/s?id=1651061346132267912&wfr=spider&for=pc
     - 开启HiDPI
-    - HAP：Intel cpu 功耗管理，启用HWP即可锁住CPU最高频率
+    - HWP：Intel 的 Hardware Work Package，启用HWP即可锁住CPU最高频率
         - http://bbs.pcbeta.com/viewthread-1798057-1-1.html
 
     我已经将我的 **EFI** 分享到本页面了。
