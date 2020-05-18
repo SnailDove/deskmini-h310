@@ -1,6 +1,6 @@
 ## 前言
 
-我是**第一次**装机且**第一次**装黑苹果，在大佬的帮助下已经几乎完美黑果，**我只对我自己试验过的的机型，硬件，系统镜像以及使用的efi和装机工具有发言权，其他我不懂，勿扰**。对于教程和资源下文都可以获取。鼓励大家有能力要支持正版软件，一方面，任何成果都是工程师辛苦付出的结果；再者，请大家遵守相关法律法规，**本人玩这个黑果，只是个人娱乐，如有侵犯别人版权和商业利益，请告知本人删除相关侵权的资源**！！！
+我是**第一次**装机且**第一次**装黑果，在大佬的帮助下已经几乎完美黑果，**我只对我自己试验过的的机型，硬件，系统镜像以及使用的efi和装机工具有发言权，其他我不懂，勿扰**。对于教程和资源下文都可以获取。鼓励大家有能力要支持正版软件，一方面，任何成果都是工程师辛苦付出的结果；再者，请大家遵守相关法律法规，**本人玩这个黑果，只是个人娱乐，如有侵犯别人版权和商业利益，请告知本人删除相关侵权的资源**！！！
 
 ## 本人需求
 
@@ -20,7 +20,7 @@
 |  显示器   | 便携 2k 显示器                 |     658     | 淘宝 |
 | 机箱+主板 | deskmini 310                   |     979     | 狗东 |
 
-自从疫情，全部涨价，我购买日期3月中旬，年前起码便宜六七百。小白第一次装机，没有旧配件和垃圾佬的水平，咸鱼也不碰，以后捡垃圾玩玩😆，不着急的小伙伴等6.18或者疫情过去又或者Intel新一代的CPU发布，到那时候价格比较香。我的黑苹果跑分如下，跟其他白苹果的对比：
+自从疫情，全部涨价，我购买日期3月中旬，年前起码便宜六七百。小白第一次装机，没有旧配件和垃圾佬的水平，咸鱼也不碰，以后捡垃圾玩玩😆，不着急的小伙伴等6.18或者疫情过去又或者Intel新一代的CPU发布，到那时候价格比较香。我的黑果跑分如下，跟其他白苹果的对比：
 
 ![对比图，用梯子才能看到图](./Versus.jpg)
 
@@ -38,11 +38,11 @@
 
 - Shutdown/Sleep
 
-- AppStore/ICloudAirDrop/Handoff 
+- AppStoreICloud/AirDrop/Handoff/SideCar随航 
 
 - HWP enable: **按照自己的意愿设置CPU的最低、日常想要的频率、最高频率**
 
-- VideoProc(仅供参考，Final Cut X Pro才是真正的验机工具): H264/HEVC/Hardware Decoder
+- VideoProc(仅供参考): H264/HEVC/Hardware Decoder (**核显硬解已经测试通过：通过视频转码查看GPU频率，也可以使用Final Cut X Pro来验证**）
 
     ![VideoProc，用梯子才能看到图](./VideoProc.png)
 
@@ -73,6 +73,7 @@
 ### 未完成功能
 
 1. VGA ：mac系统不支持vga！
+2. SD卡待测，没有SD卡，暂不需要，需要的请注意。
 
 ## 装机过程
 
@@ -115,7 +116,7 @@
     - 开机跳过Clover选择系统界面，直接进入白苹果系统的的加载进度条，生活工作基本上不需要Windows，为了以防万一也已经装了Windows虚拟机。
         - https://baijiahao.baidu.com/s?id=1651061346132267912&wfr=spider&for=pc
     - 开启HiDPI
-    - HWP：Intel 的 Hardware Work Package，启用HWP即可锁住CPU最高频率
+    - HWP：Intel 的 HARDWARE-CONTROLLED PERFORMANCE STATES (HWP)，启用HWP即可锁住CPU最高频率
         - [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
         - [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
 
@@ -130,16 +131,16 @@
         黑果小兵的 `macOS Catalina 10.15.4(19E287) Installer for Clover 5109 and WEPE Support UEFI and MBR.dmg` 的MD5值为 `c84ebeeb84c074729c11afca91c6f952`
 
 
-#### 黑苹果上手学习资源
+#### 黑果上手学习资源
 
-1. oc引导，傻瓜式教程，内含EFI：[华擎 DeskMini 310 黑苹果（hackintosh） 10.15（Catalina） OpenCore配置](https://www.bzqll.com/2020/01/329.html)
-2. [【知其然01】黑苹果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
-3. [【知其然02】黑苹果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
-4. [【知其然03】那些黑苹果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
-5. [【黑苹果】MacOS Catalina 10.15.4 详细安装过程实录(附有工具下载链接)](https://www.bilibili.com/video/BV1da4y147my)
-6. [HiDPI是什么？以及黑苹果如何开启HiDPI](https://www.sqlsec.com/2018/09/hidpi.html)
+1. oc引导，傻瓜式教程，内含EFI：[华擎 DeskMini 310 黑果（hackintosh） 10.15（Catalina） OpenCore配置](https://www.bzqll.com/2020/01/329.html)
+2. [【知其然01】黑果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
+3. [【知其然02】黑果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
+4. [【知其然03】那些黑果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
+5. [【黑果】MacOS Catalina 10.15.4 详细安装过程实录(附有工具下载链接)](https://www.bilibili.com/video/BV1da4y147my)
+6. [HiDPI是什么？以及黑果如何开启HiDPI](https://www.sqlsec.com/2018/09/hidpi.html)
 7. [教程：利用Hackintool打开第8代核显HDMI/DVI输出的正确姿势](https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html)
-8. [黑苹果-HDMI输出简单教程](https://www.bilibili.com/video/BV1AT4y157oJ)
+8. [黑果-HDMI输出简单教程](https://www.bilibili.com/video/BV1AT4y157oJ)
 9. [Mojave UHD 630 on i5 8400 issues, have tried everything](https://www.tonymacx86.com/threads/mojave-uhd-630-on-i5-8400-issues-have-tried-everything.269368/page-3#post-1889723)
 10. [Guide: Intel Framebuffer patching using WhateverGreen](https://www.tonymacx86.com/threads/guide-intel-framebuffer-patching-using-whatevergreen.256490/post-1856330)
 11. [Hackintool教程——给FrameBuffer打补丁以驱动核显](https://www.bilibili.com/v/technology/wild/)
@@ -194,6 +195,7 @@
 7. https://github.com/csrutil/DeskMini
 8. [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
 9. [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
+
 
 
 
