@@ -116,6 +116,7 @@
         - https://baijiahao.baidu.com/s?id=1651061346132267912&wfr=spider&for=pc
     - 开启HiDPI
     - HWP：Intel 的 Hardware Work Package，启用HWP即可锁住CPU最高频率
+        - https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html
         - http://bbs.pcbeta.com/viewthread-1798057-1-1.html
 
     我已经将我的 **EFI** 分享到本页面了。
