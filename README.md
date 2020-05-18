@@ -94,7 +94,7 @@
 
 - CPU Chip Set  
 
-    CPU C STATE SUPPORT ENABLED->CFG Lock Disabled
+    CPU C STATE SUPPORT ENABLED->CFG Lock Disabled (**注意**：解除这个锁定才能HWP)
 
     
 
@@ -116,8 +116,8 @@
         - https://baijiahao.baidu.com/s?id=1651061346132267912&wfr=spider&for=pc
     - 开启HiDPI
     - HWP：Intel 的 Hardware Work Package，启用HWP即可锁住CPU最高频率
-        - https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html
-        - http://bbs.pcbeta.com/viewthread-1798057-1-1.html
+        - [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
+        - [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
 
     我已经将我的 **EFI** 分享到本页面了。
 
@@ -186,22 +186,14 @@
 ## 致谢
 
 1. https://github.com/cnsilvan/deskmini310_hackintosh
-
 2. https://github.com/zsyshuyang/Hackintosh-EFI-For-Deskmini-310-i5-9400-DW1560
-
 3. https://github.com/liminghuang/asrock_deskmini310_hackintosh
-
 4. https://github.com/yuqi/Deskmini-310-Hackintosh
-
 5. https://github.com/isNextJuly/Hackintosh-EFI-for-deskmini-310-i7-8700
-
 6. https://github.com/leogitpro/Hackintosh-DeskMini310
-
 7. https://github.com/csrutil/DeskMini
-
 8. [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
-
-    
+9. [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
 
 
 
