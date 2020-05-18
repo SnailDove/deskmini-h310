@@ -263,7 +263,7 @@
 		<key>TurboDisable</key>
 		<false/>
 		<key>UseARTFrequency</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>Devices</key>
 	<dict>
