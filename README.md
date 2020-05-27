@@ -99,11 +99,13 @@
 
     - Secure Boot, Disabled(by default)
 
-- CSM, only UEFI
+- Boot
+
+    - only UEFI
 
 - CPU Chip Set  
 
-    CPU C STATE SUPPORT ENABLED->CFG Lock Disabled (**注意**：解除这个锁定才能HWP)
+    - CPU C STATE SUPPORT ENABLED->CFG Lock Disabled (**注意**：解除这个锁定才能HWP)
 
     
 
@@ -121,11 +123,11 @@
         - 在Clover Configurator中将你的config.plist的Boot中将`igfxonln = 1`添加到您的启动参数中即可。详解参考：http://bbs.pcbeta.com/viewthread-1850729-1-1.html
     - 电源选项：加载原生电源管理
         - 在Clover Configurator中将你的config.plist文件中点击ACPI，在ACPI页面右下角的`PluginType`选项勾选即可。
-    - 开机跳过Clover选择系统界面，直接进入白苹果系统的的加载进度条，生活工作基本上不需要Windows，为了以防万一也已经装了Windows虚拟机。
+    - 开机跳过Clover选择系统界面，直接进入白苹果系统的的加载进度条，生活工作基本上不需要Windows，为了以防万一也已经装了Windows虚拟机。**注意**：我上传的EFI没有开启这个功能，原因是：不是通用需求，如有需要按照下列教程自行更改：
         - https://baijiahao.baidu.com/s?id=1651061346132267912&wfr=spider&for=pc
     - 开启HiDPI
         - [HiDPI是什么？以及黑果如何开启HiDPI](https://www.sqlsec.com/2018/09/hidpi.html)
-    - HWP：Intel 的 HARDWARE-CONTROLLED PERFORMANCE STATES (HWP)，启用HWP即可锁住CPU最高频率，开启性能模式以后，我的i5 8500 CPU一直维持在4GHz上下。
+    - HWP：Intel 的 HARDWARE-CONTROLLED PERFORMANCE STATES (HWP)，启用HWP即可锁住CPU最高频率，开启性能模式以后，我的i5 8500 CPU一直维持在4GHz上下。**注意**：我上传的EFI没有开启这个功能，原因是：不是通用需求，如有需要按照下列教程自行更改：
         - [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
         - [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
 
