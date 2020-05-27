@@ -2,6 +2,13 @@
 
 我是**第一次**装机且**第一次**装黑果，在大佬的帮助下已经近乎完美黑果，目前已经使用一个月，并无问题，**我只对我自己试验过的的机型，硬件，系统镜像以及使用的efi和装机工具有发言权，其他我不懂，勿扰**。对于教程和资源下文都可以获取。鼓励大家有能力要支持正版软件，一方面，任何成果都是工程师辛苦付出的结果；再者，请大家遵守相关法律法规，**本人玩这个黑果，只是个人娱乐，如有侵犯别人版权和商业利益，请告知本人删除相关侵权的资源**！！！
 
+### 版本迭代
+
+本人的 EFI : 适配以下系统版本
+
+1. Catalina 15.4 已经测试未发现问题
+2. Catalina 15.5 已经测试未发现问题
+
 ## 装机结果
 
 ### Bios版本 
@@ -181,6 +188,7 @@
 3. 每个软件官网
 4. github
 5. brew cast install
+6. https://chengxuxiaohei.cn/mac-down-url.html
 
 #### MacOS使用技巧
 
@@ -194,11 +202,12 @@
 4. https://github.com/yuqi/Deskmini-310-Hackintosh
 5. https://github.com/isNextJuly/Hackintosh-EFI-for-deskmini-310-i7-8700
 6. https://github.com/leogitpro/Hackintosh-DeskMini310
-7. https://github.com/csrutil/DeskMini
-8. [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
-9. [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
-10. [macOS Catalina 10.15安装中常见的问题及解决方法](https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html)
-11. [使用AppleALC声卡仿冒驱动AppleHDA的正确姿势](https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html)
+7. https://blog.xjn819.com/?p=7
+8. https://github.com/csrutil/DeskMini
+9. [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
+10. [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
+11. [macOS Catalina 10.15安装中常见的问题及解决方法](https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html)
+12. [使用AppleALC声卡仿冒驱动AppleHDA的正确姿势](https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html)
 
 
 
