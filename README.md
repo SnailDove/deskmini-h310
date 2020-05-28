@@ -7,7 +7,9 @@
 本人的 EFI : 适配以下系统版本
 
 1. Catalina 15.4 : 已经测试未发现问题
-2. Catalina 15.5 : 双屏输出HDMI口待验证，其他没有问题
+2. Catalina 15.5 : 双屏输出HDMI口待验证，其他经验证没有问题
+    - [有大神能解决八代核显10.15.5hdmi黑屏问题吗？](http://bbs.pcbeta.com/viewthread-1858867-1-1.html)（仿冒成7代KABY LAKE的ID就亮屏了，具体查看链接）
+    - [macos catalina 10.15.5 (19F96) hdmi external display black screen #938](https://github.com/acidanthera/bugtracker/issues/938) 
 
 ## 装机结果
 
