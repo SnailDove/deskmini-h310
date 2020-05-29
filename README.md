@@ -103,7 +103,7 @@
 
 - Boot
 
-    - only UEFI
+    - CSM enable, only UEFI
 
 - CPU Chip Set  
 
