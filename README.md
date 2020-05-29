@@ -21,15 +21,15 @@
 
 - Ethernet/WIFI/Bluetooth/Audio/USB&EX-USB/Sensors
 
-- DP/HDMI dual monitor output **两口开机睡眠均能唤醒不黑屏**
+- DP(4K 60Hz), HDMI(4k 30Hz) dual monitor output **两口开机睡眠均能唤醒不黑屏**
 
 - Shutdown/Sleep
 
-- IMessage/FaceTime/AppStore/ICloud/AirDrop/Handoff/SideCar随航 
+- IMessage/FaceTime/AppStore/ICloud/AirDrop/Handoff/**SideCar随航** 
 
 - HWP enable: **按照自己的意愿设置CPU的最低、日常想要的频率、最高频率**
 
-- VideoProc(仅供参考): H264/HEVC(即H265)/Hardware Decoder (**核显硬解已经测试通过：通过视频转码查看GPU频率，也可以使用Final Cut Pro X来验证**）
+- VideoProc(仅供参考): H264/HEVC(即H265)/Hardware Decoder (**核显硬解已经测试通过：在视频转码时，通过Intel Power Gadget查看GPU频率，也可以使用Final Cut Pro X来验证**）
 
     ![VideoProc，用梯子才能看到图](./VideoProc.png)
 
