@@ -143,13 +143,13 @@
         
     - **Deskmini-h310 主板功耗选项 Auto**
 
-        据 @https://github.com/twotreeszf （配置：9900t es 1.7Ghz基频版本，TDP：35W）反馈，在主板bios设置里，将CPU配置选项中“长时间功耗限制”，“短时间功耗设置”都改为65w(主板原先默认值为：Auto)，多核GeekBench跑分性能提升近1000分，多核跑分超过2019 15寸 Macbook Pro顶配版跑分（Macbook CPU 15寸顶配是 i9-9880h），全核8核能够3.3GHz左右，能够达到网上大多数对这颗U的普遍上限值，所有测试截图均在下面。大家根据自身CPU设置合适值来物尽其用！
+        据 @https://github.com/twotreeszf （配置：9900t ES 1.7Ghz基频版本，TDP：35W）反馈，在主板bios设置里，将CPU配置选项中“长时间功耗限制”，“短时间功耗设置”都改为65w(主板原先默认值为：Auto)，多核GeekBench跑分性能提升近1000分，多核跑分超过2019 15寸 Macbook Pro顶配版跑分（Macbook CPU 15寸顶配是 i9-9880h），全核8核能够3.3GHz左右，能够达到网上大多数对这颗U的普遍上限值，所有测试截图均在下面。大家根据自身CPU设置合适值来物尽其用！
 
         ![bios设置图，用梯子才能看到图](./disable_auto-tdp-lock.jpg)
 
-        ![9900t ES 跑分图，用梯子才能看到图](./9900t-es-1.7Base-GeekBench.png)
+        ![9900tES 跑分图，用梯子才能看到图](./9900t-es-1.7Base-GeekBench.png)
 
-        ![9900tES满载的Intel Power Gadget图，用梯子才能看到图](./i9-9900t-es-1.7Base_Intel-Power-Gadget.png)
+        ![9900tES 满载的Intel Power Gadget图，用梯子才能看到图](./i9-9900t-es-1.7Base_Intel-Power-Gadget.png)
 
 2. 镜像使用的是：
 
