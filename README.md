@@ -117,6 +117,20 @@
 
  ## 资源
 
+#### 官方驱动下的第一手资源
+
+无论是远景论坛还是各种黑苹果社区，很多帖子都是网友第二次加工，由于网友水平参差不齐，建议大家还是直接看各个驱动官方的文档，有时候看英文版开始慢一点但是让你少走的弯路从而节省的时间比看二次加工的信息在总时间上来说更节约。
+
+1. **驱动bug问题追踪**：https://github.com/acidanthera/bugtracker，查看本仓库下的issues问题，可能可以找到拥有同样问题的人
+2. **WhateverGreen 驱动** github 中文介绍页：https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.cn.md 这里大家也可以看看英文版：https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md 根据每个文档更新时间，进行有效的跟踪，及时作出调整。
+3. **Lilu 驱动 github 主页**： https://github.com/acidanthera/Lilu
+4. **AppleALC 音频驱动** github中文页：https://github.com/acidanthera/AppleALC/blob/master/README_CN.md [小兵哥亲受教程：使用AppleALC声卡仿冒驱动AppleHDA的正确姿势](https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html)
+5. **Virtual SMC 虚拟的系统控制器**驱动：https://github.com/acidanthera/VirtualSMC
+6. **Intel Onboard Ethernet LAN（local area network）** 因特尔板载的以太网局域网驱动：https://github.com/acidanthera/IntelMausi
+7. **USB 口驱动**：https://github.com/RehabMan/OS-X-USB-Inject-All 英文教程：https://www.tonymacx86.com/threads/the-new-beginners-guide-to-usb-port-configuration.286553/ 中文在小兵大哥的博客上有
+
+至于战斗种族的强大的计算机论坛资料，可以去小兵大哥博客自行获取。
+
 #### 本机型相关资源
 
 1. 目前我本人使用 **EFI** : https://github.com/zsyshuyang/Hackintosh-EFI-For-Deskmini-310-i5-9400-DW1560 大佬的分享，然后进一步修复如下功能（小白的话直接将我的EFI替换掉系统盘的EFI即可）：
@@ -141,9 +155,9 @@
         - [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
         - [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
         
-    - **Deskmini-h310 主板功耗选项 Auto**
+    - **Deskmini-h310 主板功耗选项 Auto** （主板有功耗锁）
 
-        据 @https://github.com/twotreeszf （配置：9900t ES 1.7Ghz基频版本，TDP：35W）反馈，在主板bios设置里，将CPU配置选项中“长时间功耗限制”，“短时间功耗设置”都改为65w(主板原先默认值为：Auto)，多核GeekBench跑分性能提升近1000分，多核跑分超过2019 15寸 Macbook Pro顶配版跑分（Macbook CPU 15寸顶配是 i9-9880h），全核8核能够3.3GHz左右，能够达到网上大多数对这颗U的普遍上限值，所有测试截图均在下面。大家根据自身CPU设置合适值来物尽其用！
+        据 @https://github.com/twotreeszf （配置：9900t ES 1.7Ghz基频版本，TDP：35W）反馈，在主板bios设置里，将CPU配置选项中“长时间功耗限制”，“短时间功耗设置”都改为65w(主板原先默认值为：Auto)，多核GeekBench跑分性能提升近1000分，多核跑分超过2019 15寸 Macbook Pro顶配版跑分（Macbook CPU 15寸顶配是 i9-9880h），全核8核能够3.3GHz左右，能够达到网上大多数对这颗U的普遍上限值，所有测试截图均在下面。知乎上其他网友也是这样的设置，才发挥出了相同的效果。**从得到有限样本总结来说，intel 9900t低压CPU的Auto策略偏保守，还要注意主板本身对CPU功耗而不是TDP的限制**。大家根据自身CPU设置合适值来物尽其用！
 
         ![bios设置图，用梯子才能看到图](./disable_auto-tdp-lock.jpg)
 
@@ -160,19 +174,19 @@
         黑果小兵的 `macOS Catalina 10.15.4(19E287) Installer for Clover 5109 and WEPE Support UEFI and MBR.dmg` 的MD5值为 `c84ebeeb84c074729c11afca91c6f952`
 
 
-#### 黑果上手学习资源
+#### 黑果小白上手学习资源
 
-1. oc引导，傻瓜式教程，内含EFI：[华擎 DeskMini 310 黑果（hackintosh） 10.15（Catalina） OpenCore配置](https://www.bzqll.com/2020/01/329.html)
 2. [【知其然01】黑果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
 3. [【知其然02】黑果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
 4. [【知其然03】那些黑果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
 5. [【黑果】MacOS Catalina 10.15.4 详细安装过程实录(附有工具下载链接)](https://www.bilibili.com/video/BV1da4y147my)
 6. [HiDPI是什么？以及黑果如何开启HiDPI](https://www.sqlsec.com/2018/09/hidpi.html)
 7. [教程：利用Hackintool打开第8代核显HDMI/DVI输出的正确姿势](https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html)
-8. [黑果-HDMI输出简单教程](https://www.bilibili.com/video/BV1AT4y157oJ)
+8. [黑果-HDMI输出简单教程](https://www.bilibili.com/video/BV1AT4y157oJ)，启发：机型匹配，毕竟原生的系统就是一一定制的结果。
 9. [Mojave UHD 630 on i5 8400 issues, have tried everything](https://www.tonymacx86.com/threads/mojave-uhd-630-on-i5-8400-issues-have-tried-everything.269368/page-3#post-1889723)
 10. [Guide: Intel Framebuffer patching using WhateverGreen](https://www.tonymacx86.com/threads/guide-intel-framebuffer-patching-using-whatevergreen.256490/post-1856330)
 11. [Hackintool教程——给FrameBuffer打补丁以驱动核显](https://www.bilibili.com/v/technology/wild/)
+11. oc引导，傻瓜式教程，内含EFI：[华擎 DeskMini 310 黑果（hackintosh） 10.15（Catalina） OpenCore配置](https://www.bzqll.com/2020/01/329.html)
 
 ## Mac 软件分享
 
@@ -227,7 +241,6 @@
 9. [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
 10. [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
 11. [macOS Catalina 10.15安装中常见的问题及解决方法](https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html)
-12. [使用AppleALC声卡仿冒驱动AppleHDA的正确姿势](https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html)
 
 
 
