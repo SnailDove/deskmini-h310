@@ -74,7 +74,7 @@
 |:-------: | ------------------------------ | :---------: |--------- |
 |   固态    | 海康威视 c2000 pro 1TB （没有一赔三，有的话麻烦请告知渠道，赔偿分你一些，嘻嘻）<br/>写入2.7G/s 读取3.1g/s——测速工具Mac版本DiskSpeedTest，没有持续压力测试（软件自带压力测试最多是5G），实测体验：3.0 U盘（读取速度100MB/s）拷贝28G多到这块盘，不到3分钟。 |     939     | 狗东 |
 |   风扇    | 猫头鹰静音风扇NH-L9i（淘宝有卖家专门给风扇喷涂石墨烯，导热效果更好，本人没有试验过） |     300     | 狗东 |
-| 无线网卡  | M2接口转接卡+苹果原装拆机卡BCM94360CS2 （免驱动） + 双天线 |     182     | 淘宝 |
+| 无线网卡  | M2接口转接卡+苹果原装拆机卡BCM94360CS2 （免驱动） + 双天线<br/>5月底更新：**[IntelWIFI 网卡也能用啦](http://bbs.pcbeta.com/viewthread-1856465-1-1.html)** |     182     | 淘宝 |
 |    CPU   | 8500 散片，拿到手开机电压 0.98v 不错 |  1356   | 狗东第三方卖家（略贵一点点） |
 |   内存    | 威刚8g 2666Hz * 2              |     544     | 狗东（最贵的时候买入，肠子都悔青了，建议大家使用比价软件查看历史价格） |
 |  显示器   | 便携 2k 显示器                 |     658     | 淘宝 |
@@ -121,15 +121,14 @@
 
 无论是远景论坛还是各种黑苹果社区，很多帖子都是网友第二次加工，由于网友水平参差不齐，建议大家还是直接看各个驱动官方的文档，有时候看英文版开始慢一点但是让你少走的弯路从而节省的时间比看二次加工的信息在总时间上来说更节约。
 
-1. **驱动bug问题追踪**：https://github.com/acidanthera/bugtracker，查看本仓库下的issues问题，可能可以找到拥有同样问题的人
-2. **WhateverGreen 驱动** github 中文介绍页：https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.cn.md 这里大家也可以看看英文版：https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md 根据每个文档更新时间，进行有效的跟踪，及时作出调整。
+1. **驱动bug问题追踪**：https://github.com/acidanthera/bugtracker，查看本仓库下的issues问题，可能可以找到拥有同样问题的人。
+2. **WhateverGreen 驱动** github 中文介绍页：https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.cn.md 这里大家也可以看看英文版：https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md 根据每个文档更新时间，进行有效的跟踪，及时作出调整。也有俄语版本…俄罗斯人的计算机和数学向来很强！！可以去小兵大哥博客自行获取俄语论坛资料。
 3. **Lilu 驱动 github 主页**： https://github.com/acidanthera/Lilu
-4. **AppleALC 音频驱动** github中文页：https://github.com/acidanthera/AppleALC/blob/master/README_CN.md [小兵哥亲受教程：使用AppleALC声卡仿冒驱动AppleHDA的正确姿势](https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html)
-5. **Virtual SMC 虚拟的系统控制器**驱动：https://github.com/acidanthera/VirtualSMC
-6. **Intel Onboard Ethernet LAN（local area network）** 因特尔板载的以太网局域网驱动：https://github.com/acidanthera/IntelMausi
-7. **USB 口驱动**：https://github.com/RehabMan/OS-X-USB-Inject-All 英文教程：https://www.tonymacx86.com/threads/the-new-beginners-guide-to-usb-port-configuration.286553/ 中文在小兵大哥的博客上有
-
-至于战斗种族的强大的计算机论坛资料，可以去小兵大哥博客自行获取。
+4. **AppleALC 音频驱动** github中文页：https://github.com/acidanthera/AppleALC/blob/master/README_CN.md [小兵哥亲受教程：使用AppleALC声卡仿冒驱动AppleHDA的正确姿势](https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html)。
+5. **Virtual SMC 虚拟的系统控制器驱动**：https://github.com/acidanthera/VirtualSMC。
+6. **Intel Onboard Ethernet LAN（local area network） 因特尔板载的以太网局域网驱动**：https://github.com/acidanthera/IntelMausi
+7. **USB 口驱动**：https://github.com/RehabMan/OS-X-USB-Inject-All 英文教程：https://www.tonymacx86.com/threads/the-new-beginners-guide-to-usb-port-configuration.286553/ 中文在小兵大哥的博客上有。
+8. **Intel WIFI 网卡开发者库**：https://github.com/zxystd/itlwm 有介绍可以使用的intel网卡型号，作者亲自写的使用帖子：http://i.pcbeta.com/space-uid-3537092.html。
 
 #### 本机型相关资源
 
@@ -210,7 +209,7 @@
 14. 动图软件：LICECap
 15. 脑图软件：XMind
 16. 网速工具：网速管家
-17. MacOS跑分工具：GeekBench，CineBench R15
+17. MacOS跑分工具：GeekBench，CineBench R15/R20
 18. 各大视频网站视频下载工具：Downie
 19. 视频全能播放器：IINA
 20. 快捷键提示工具：CheatSheet
