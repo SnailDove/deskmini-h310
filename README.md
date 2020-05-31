@@ -198,26 +198,35 @@
 1. 外接显示器亮度音量调节：https://github.com/the0neyouseek/MonitorControl
 2. 分别调节每个应用程序的音量：Sound Control
 3. U盘多种格式读写工具（建议格式化U盘或者硬盘为ExtFat格式，这种格式所有系统都能读写）：https://mp.weixin.qq.com/s/AOiku5o-YE_GnlyKeavjHA
-4. Kext缓存刷新工具（升级系统必备）——Kext Utility：http://bbs.pcbeta.com/viewthread-1802862-1-1.html
-5. Kext驱动更新工具（升级系统必备）——Kext Updater
-6. 打补丁工具——Hackintool
-7. 系统监控工具（CPU，温度，硬盘，风扇，网速，内存，GPU）——iStat Menus
-8. 截图软件（可以滚动截图）——Xnip
-9. 翻译软件：Copytranslator
-10. 词典软件：欧路词典
-11. PDF：福昕阅读器
-12. Markdown编辑器：Typora或者Vim
-13. 录屏软件：iShot
-14. 动图软件：LICECap
-15. 脑图软件：XMind
-16. 网速工具：网速管家
-17. MacOS跑分工具：GeekBench，CineBench R15/R20
-18. 各大视频网站视频下载工具：Downie
-19. 视频全能播放器：IINA
-20. 快捷键提示工具：CheatSheet
-21. 截图文本扫描（顺带翻译）：Text Scanner
-22. Office套件：WPS，Office 2019 Mac 版下载 https://blog.tlhub.cn/Office-2019-for-Mac
-23. 视频剪辑软件：Final Cut Pro x
+4. iRightMouse 超级右键，AppStore可下载，官网也有Bug反馈，服务很好。帮助实现以下主要的功能（还有其他功能可百度）：
+    - 剪切
+    - 从终端打开目前文件（夹）路径 
+    -  将当前路径拷贝到系统剪切板
+    - 创建新文件（支持好多格式：txt, office 全家桶，markdown , xml 等等）
+    - 文件发送到常见文件夹路径
+5. Kext缓存刷新工具（升级系统必备）——Kext Utility：http://bbs.pcbeta.com/viewthread-1802862-1-1.html
+6. Kext驱动更新工具（升级系统必备）——Kext Updater
+7. 打补丁工具——Hackintool
+8. 系统监控工具（CPU，温度，硬盘，风扇，网速，内存，GPU）——iStat Menus
+9. 截图软件（可以滚动截图）——Xnip
+10. 翻译软件：Copytranslator
+11. 词典软件：欧路词典
+12. PDF：福昕阅读器
+13. Markdown编辑器：Typora或者Vim
+14. 录屏软件：iShot
+15. 动图软件：LICECap
+16. 脑图软件：XMind
+17. 网速工具：网速管家
+18. MacOS跑分工具：GeekBench，CineBench R15/R20
+19. 各大视频网站视频下载工具：Downie
+20. 视频全能播放器：IINA
+21. 快捷键提示工具：CheatSheet
+22. 截图文本扫描（顺带翻译）：Text Scanner
+23. Office套件：WPS，Office 2019 Mac 版下载 https://blog.tlhub.cn/Office-2019-for-Mac
+24. 视频剪辑软件：Final Cut Pro x
+25. 下载软件 Motrix， 类似windows下的EagleGet
+26. 状态指示太长栏进行折叠，Bartender
+27. 
 
 **MacOS软件分享网站：**
 
