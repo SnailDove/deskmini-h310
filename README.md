@@ -57,9 +57,9 @@
     
         ![未开启HiDPI-2K，用梯子才能看到图](./2K-NotHiDPI.jpeg)
 
-### 未完成功能
+### 未完成的功能
 
-1. VGA 口。有人在7代U上成功了：[VGA+HD630在10.15.4上成功驱动显卡](https://www.bilibili.com/video/BV12k4y1R7Ko)
+1. VGA 口（最高只支持1080p）。有人在7代U上成功了：[VGA+HD630在10.15.4上成功驱动显卡](https://www.bilibili.com/video/BV12k4y1R7Ko)
 2. SD卡待测，没有SD卡，暂不需要，需要的请注意。
 
 ## 本人需求
@@ -226,7 +226,7 @@
 24. 视频剪辑软件：Final Cut Pro x
 25. 下载软件 Motrix， 类似windows下的EagleGet
 26. 状态指示太长栏进行折叠，Bartender
-27. 
+27. 系统信息管理工具：Sensei（尽管类Unix系统整这个没意义）
 
 **MacOS软件分享网站：**
 
@@ -237,7 +237,7 @@
 5. brew cast install
 6. https://chengxuxiaohei.cn/mac-down-url.html
 
-#### MacOS使用技巧
+## MacOS使用技巧
 
 1. [MacBook、Mac新手必备的20个小技巧，效率提升](https://www.bilibili.com/video/BV19t4y117Lr/)
 
