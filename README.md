@@ -11,6 +11,11 @@
     - [macos catalina 10.15.5 (19F96) hdmi external display black screen #938](https://github.com/acidanthera/bugtracker/issues/938) （多种方案可供参考）
     - [有大神能解决八代核显10.15.5hdmi黑屏问题吗？](http://bbs.pcbeta.com/viewthread-1858867-1-1.html)
 
+在永远硬盘上分区出来或者在另外一个硬盘上面可以随便升级和试验操作而且不会影响你当前正在使用的稳定MacOS版本，这样稳定和可玩性都具备（有时间折腾的朋友必备）：
+
+1. [苹果官网：在单独的 APFS 宗卷上安装 macOS](https://support.apple.com/zh-cn/HT208891) 官网第一句话：通过 APFS，您可以更轻松地在不同版本的 macOS 之间切换，包括 Beta 版（预发布版）macOS。
+2. [苹果官网：在 Mac 上的“磁盘工具”中将物理磁盘分区](https://support.apple.com/zh-cn/guide/disk-utility/dskutl14027/mac) 
+
 ## 装机结果
 
 ### Bios版本 
@@ -107,13 +112,14 @@
 
 - CPU Chip Set  
 
-    - CPU C STATE SUPPORT ENABLED->CFG Lock Disabled (**注意**：解除这个锁定才能HWP)
+    - CPU C STATE SUPPORT ENABLED->CFG Lock Disabled (**注意**：解除这个才能原生电源管理)
 
-    
 
-我这个小白根据这个 [视频教程](https://www.bilibili.com/video/BV1da4y147my) ：我按照视频教程操作到 13:11，因为我的m2型号的固态硬盘上只安装MacOS，所以我只进行到 13:11，**然后不要拔掉U盘**，使用Clover Configurator工具将U盘里面的efi（注意不是winpe目录下的efi，而是跟winpe同一级目录的efi文件夹）替换掉装完机的MacOS系统上的EFI。下一步就是：https://blog.csdn.net/weixin_43912833/article/details/102408559 。
+**注意**：装机和黑果有风险，注意重要的数据提前备份。**都是小白教程，且带有工具下载链接**：
 
-**注意**：装机和黑果有风险，注意重要的数据提前备份。
+1. **Clover引导**：我这个小白根据这个 [视频教程](https://www.bilibili.com/video/BV1da4y147my) ：我按照视频教程操作到 13:11，因为我的m2型号的固态硬盘上只安装MacOS，所以我只进行到 13:11，**然后不要拔掉U盘**，使用Clover Configurator工具将U盘里面的efi（注意不是winpe目录下的efi，而是跟winpe同一级目录的efi文件夹）替换掉装完机的MacOS系统上的EFI。下一步就是（这一步作用：防止跟别人一进而影响到苹果账户的使用）：https://blog.csdn.net/weixin_43912833/article/details/102408559 。
+
+2. **OpenCore引导**：[Intel Coffee Lake平台完美黑苹果系统安装教程（Opencore+Catalina15.4）](https://www.bilibili.com/video/BV1hA411t7dr/)，up主带你亲自阅读官方教程，一步步配置参数和驱动讲解，讲解参数含义与作用。
 
  ## 资源
 
@@ -131,6 +137,8 @@
 8. **Intel WI-FI 网卡固件库**：https://github.com/zxystd/itlwm 有介绍可以使用的intel网卡型号，作者亲自写的使用帖子 ：http://i.pcbeta.com/space-uid-3537092.html。
 9. **Intel Bluetooth 固件库**： https://github.com/zxystd/IntelBluetoothFirmware，教程如同上条。
 10. **设备属性转换工具库**：https://github.com/acidanthera/gfxutil
+11. **OC引导台式机官方教程**：https://dortania.github.io/OpenCore-Desktop-Guide/
+12. **OC引导官方库**：https://github.com/acidanthera/OpenCorePkg
 
 #### 本机型相关资源
 
@@ -174,23 +182,23 @@
 
         黑果小兵的 `macOS Catalina 10.15.4(19E287) Installer for Clover 5109 and WEPE Support UEFI and MBR.dmg` 的MD5值为 `c84ebeeb84c074729c11afca91c6f952`
 
-
 #### 黑果小白上手学习资源
 
-2. [【知其然01】黑果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
-3. [【知其然02】黑果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
-4. [【知其然03】那些黑果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
-5. [【黑果】MacOS Catalina 10.15.4 详细安装过程实录(附有工具下载链接)](https://www.bilibili.com/video/BV1da4y147my)
-6. [HiDPI是什么？以及黑果如何开启HiDPI](https://www.sqlsec.com/2018/09/hidpi.html)
-7. [教程：利用Hackintool打开第8代核显HDMI/DVI输出的正确姿势](https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html)
-8. [黑果-HDMI输出简单教程](https://www.bilibili.com/video/BV1AT4y157oJ)，启发：机型匹配，毕竟原生的系统就是一一定制的结果。
-9. [Mojave UHD 630 on i5 8400 issues, have tried everything](https://www.tonymacx86.com/threads/mojave-uhd-630-on-i5-8400-issues-have-tried-everything.269368/page-3#post-1889723)
-10. [Guide: Intel Framebuffer patching using WhateverGreen](https://www.tonymacx86.com/threads/guide-intel-framebuffer-patching-using-whatevergreen.256490/post-1856330)
-11. [Hackintool教程——给FrameBuffer打补丁以驱动核显](https://www.bilibili.com/v/technology/wild/)
-11. [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
-12. [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
-13. [macOS Catalina 10.15安装中常见的问题及解决方法](https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html)
-14. oc引导，傻瓜式教程，内含EFI：[华擎 DeskMini 310 黑果（hackintosh） 10.15（Catalina） OpenCore配置](https://www.bzqll.com/2020/01/329.html)
+注意在驱动的作用方面Clover引导与OpenCore引导并无差别，含义可以借鉴理解。
+
+1. [【知其然01】黑果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
+2. [【知其然02】黑果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
+3. [【知其然03】那些黑果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
+4. [【黑果】MacOS Catalina 10.15.4 详细安装过程实录(附有工具下载链接)](https://www.bilibili.com/video/BV1da4y147my)
+5. [教程：利用Hackintool打开第8代核显HDMI/DVI输出的正确姿势](https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html)
+6. [黑果-HDMI输出简单教程](https://www.bilibili.com/video/BV1AT4y157oJ)，启发：机型匹配，毕竟原生的系统就是一一定制的结果。
+7. [Mojave UHD 630 on i5 8400 issues, have tried everything](https://www.tonymacx86.com/threads/mojave-uhd-630-on-i5-8400-issues-have-tried-everything.269368/page-3#post-1889723)
+8. [Hackintool教程——给FrameBuffer打补丁以驱动核显](https://www.bilibili.com/v/technology/wild/) 英文版： [Guide: Intel Framebuffer patching using WhateverGreen](https://www.tonymacx86.com/threads/guide-intel-framebuffer-patching-using-whatevergreen.256490/post-1856330)
+9. [macOS Catalina 10.15安装中常见的问题及解决方法](https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html)
+10. oc引导，傻瓜式教程，内含EFI：[华擎 DeskMini 310 黑果（hackintosh） 10.15（Catalina） OpenCore配置](https://www.bzqll.com/2020/01/329.html)
+11. [【吃瓜】CPU超频？别问！问就是不会！](https://www.bilibili.com/video/BV1Ak4y1k7Wo/?spm_id_from=333.788.videocard.1)
+
+    
 
 ## Mac 软件分享
 
@@ -205,8 +213,8 @@
     - 创建新文件（支持好多格式：txt, office 全家桶，markdown , xml 等等）
     - 文件发送到常见文件夹路径
     - 给文件打上对应的应用程序的图标
-5. Kext缓存刷新工具（升级系统必备）——Kext Utility：http://bbs.pcbeta.com/viewthread-1802862-1-1.html
-6. Kext驱动更新工具（升级系统必备）——Kext Updater
+5. Kexts(Kernel extensions)缓存刷新工具（升级系统必备）——Kexts Utility：http://bbs.pcbeta.com/viewthread-1802862-1-1.html
+6. Kexts(Kernel extensions)驱动更新工具（升级系统必备）——Kexts Updater
 7. 打补丁工具——Hackintool
 8. 系统监控工具（CPU，温度，硬盘，风扇，网速，内存，GPU）——iStat Menus
 9. 截图软件（可以滚动截图）——Xnip
@@ -252,10 +260,6 @@
 6. https://github.com/leogitpro/Hackintosh-DeskMini310
 7. https://blog.xjn819.com/?p=7
 8. https://github.com/csrutil/DeskMini
-
-    
-
-
 
 
 
