@@ -11,10 +11,12 @@
     - [macos catalina 10.15.5 (19F96) hdmi external display black screen #938](https://github.com/acidanthera/bugtracker/issues/938) （多种方案可供参考）
     - [有大神能解决八代核显10.15.5hdmi黑屏问题吗？](http://bbs.pcbeta.com/viewthread-1858867-1-1.html)
 
-在永远硬盘上分区出来或者在另外一个硬盘上面可以随便升级和试验操作而且不会影响你当前正在使用的稳定MacOS版本，这样稳定和可玩性都具备（有时间折腾的朋友必备）：
+在原来硬盘上分区出来或者在另外一个硬盘上面可以随便升级和试验操作而且不会影响你当前正在使用的稳定MacOS版本，这样稳定和可玩性都具备（有时间折腾的朋友必备）：
 
 1. [苹果官网：在单独的 APFS 宗卷上安装 macOS](https://support.apple.com/zh-cn/HT208891) 官网第一句话：通过 APFS，您可以更轻松地在不同版本的 macOS 之间切换，包括 Beta 版（预发布版）macOS。
 2. [苹果官网：在 Mac 上的“磁盘工具”中将物理磁盘分区](https://support.apple.com/zh-cn/guide/disk-utility/dskutl14027/mac) 
+
+彩蛋：[【司波图】10代最强带核显黑苹果装机实战及性能演示，附安装所需的注意事项](https://www.bilibili.com/video/BV17t4y1y7uu)
 
 ## 装机结果
 
