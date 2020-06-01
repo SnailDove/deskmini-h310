@@ -230,7 +230,7 @@
 19. 各大视频网站视频下载工具：Downie
 20. 视频全能播放器：IINA
 21. 快捷键提示工具：CheatSheet
-22. 截图文本扫描（顺带翻译）：Text Scanner
+22. 截图文本识别（顺带翻译）：Text Scanner
 23. Office套件：WPS，Office 2019 Mac 版下载 https://blog.tlhub.cn/Office-2019-for-Mac
 24. 视频剪辑软件：Final Cut Pro x
 25. 下载软件 Motrix， 类似windows下的EagleGet
