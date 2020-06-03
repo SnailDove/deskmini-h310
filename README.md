@@ -100,9 +100,23 @@
 
 - Advanced
 
-    - Onboard HD Audio: Enabled
-    - USB Configuration, XHCI Hand-off, Enabled
-    - Super IO Configuration, Serial Port, Disabled（必须）
+    - CPU Chip Set  
+
+        - Onboard HD Audio: Enabled
+
+    - CPU Configuration
+
+        - CPU C STATE SUPPORT Enabled
+
+            CFG Lock Disabled (**注意**：解除这个才能原生电源管理)
+
+    - USB Configuration
+
+        - XHCI Hand-off：Enabled
+
+    - Super IO Configuration
+
+        - Serial Port, Disabled（必须）
 
 - Security
 
@@ -112,9 +126,6 @@
 
     - CSM enable, only UEFI
 
-- CPU Chip Set  
-
-    - CPU C STATE SUPPORT ENABLED->CFG Lock Disabled (**注意**：解除这个才能原生电源管理)
 
 
 **注意**：装机和黑果有风险，注意重要的数据提前备份。**都是小白教程，且带有工具下载链接**：
