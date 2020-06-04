@@ -102,7 +102,7 @@
 5. Samsung、LG、Dell
 6. 苹果官网卖得显示器：[LG UltraFine 4K 显示屏](https://www.baidu.com/link?url=rk8XC7856Tlj_qbbRc-XDx3-MfQQYfo5Htb6TlG4_wODI7azGAt6wKdH6FLiCWgiOnt3hDu6TIiMsB_aOrdOw_&wd=&eqid=9c2af2c800024023000000055ed9102e) ，[LG UltraFine 5K 显示屏](https://www.baidu.com/link?url=t46PgIIcXszD-1LXJK4AcPl2wYsgZnpcd-7XYDoNuyDQ5abJdGxVAN1fcxCQa9oXigGS0d6OZvW4dNiV9pcIY_&wd=&eqid=9c2af2c800024023000000055ed9102e)， [Pro Display XDR](https://www.apple.com.cn/pro-display-xdr/)
 
-**注明：**每个牌子都有不同系列显示器，都有高中低端系列，主要关注这些参数（小白科普文章）：
+**注明：** 每个牌子都有不同系列显示器，都有高中低端系列，主要关注这些参数（小白科普文章）：
 
 - 色域：苹果电脑都是是DCI-P3，[浅谈几种常见的色域标准](https://zhuanlan.zhihu.com/p/45533004)
 - 分辨率和DPI（Dots Per Inch）：[分辨率和像素是什么关系？ - 小7的背包的回答 - 知乎](https://www.zhihu.com/question/21149600/answer/724435661)
