@@ -100,14 +100,15 @@
 3. AOC
 4. 明基（做工著称）
 5. Samsung、LG、Dell
-6. 苹果官网卖得显示器：LG UltraFine系列，Display Pro XDR
+6. 苹果官网卖得显示器：[LG UltraFine 4K 显示屏](https://www.baidu.com/link?url=rk8XC7856Tlj_qbbRc-XDx3-MfQQYfo5Htb6TlG4_wODI7azGAt6wKdH6FLiCWgiOnt3hDu6TIiMsB_aOrdOw_&wd=&eqid=9c2af2c800024023000000055ed9102e) ，[LG UltraFine 5K 显示屏](https://www.baidu.com/link?url=t46PgIIcXszD-1LXJK4AcPl2wYsgZnpcd-7XYDoNuyDQ5abJdGxVAN1fcxCQa9oXigGS0d6OZvW4dNiV9pcIY_&wd=&eqid=9c2af2c800024023000000055ed9102e)， [Pro Display XDR](https://www.apple.com.cn/pro-display-xdr/)
 
-**注明：**每个牌子都有不同系列显示器，有高中低端系列，主要关注这些参数（小白科普文章）：
+**注明：**每个牌子都有不同系列显示器，都有高中低端系列，主要关注这些参数（小白科普文章）：
 
 - 色域：苹果电脑都是是DCI-P3，[浅谈几种常见的色域标准](https://zhuanlan.zhihu.com/p/45533004)
-- 分辨率和DPI：[分辨率和像素是什么关系？ - 小7的背包的回答 - 知乎](https://www.zhihu.com/question/21149600/answer/724435661)
+- 分辨率和DPI（Dots Per Inch）：[分辨率和像素是什么关系？ - 小7的背包的回答 - 知乎](https://www.zhihu.com/question/21149600/answer/724435661)
 - 面板：[显示器TN、IPS、VA面板类型哪个好? - 林远的回答 - 知乎](https://www.zhihu.com/question/57854431/answer/868319230)
 - 出厂是否校色：屏幕想显示某个颜色到真实世界中那个颜色的偏差，偏差控制越小那么就越接近现实世界真实值。这个偏差又称：Delta E，$\Delta E$；出厂校色就是产品出厂之前厂家帮你校色了，然后送到经销商手上。
+- 三包政策。
 
 **注意：** 有Type C接口可以给笔记本电脑反向充电，这样连一根线到显示器，笔记本又可以充电又可以扩展屏幕。桌面干净整洁。
 
