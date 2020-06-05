@@ -246,9 +246,7 @@
 8. [Hackintool教程——给FrameBuffer打补丁以驱动核显](https://www.bilibili.com/v/technology/wild/) 英文版： [Guide: Intel Framebuffer patching using WhateverGreen](https://www.tonymacx86.com/threads/guide-intel-framebuffer-patching-using-whatevergreen.256490/post-1856330)
 9. [macOS Catalina 10.15安装中常见的问题及解决方法](https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html)
 10. oc引导，傻瓜式教程，内含EFI：[华擎 DeskMini 310 黑果（hackintosh） 10.15（Catalina） OpenCore配置](https://www.bzqll.com/2020/01/329.html)
-11. [【吃瓜】CPU超频？别问！问就是不会！](https://www.bilibili.com/video/BV1Ak4y1k7Wo/?spm_id_from=333.788.videocard.1)
-
-    
+10. [【吃瓜】CPU超频？别问！问就是不会！](https://www.bilibili.com/video/BV1Ak4y1k7Wo/?spm_id_from=333.788.videocard.1)
 
 ## Mac 软件分享
 
@@ -293,12 +291,13 @@
 2. AppStore
 3. 每个软件官网
 4. github
-5. brew cast install
+5. brew [cast] install
 6. https://chengxuxiaohei.cn/mac-down-url.html
 
 ## MacOS使用技巧
 
 1. [MacBook、Mac新手必备的20个小技巧，效率提升](https://www.bilibili.com/video/BV19t4y117Lr/)
+2. [Mac图文操作说明指南](https://pan.baidu.com/s/1B0lYYeraRwLXLd-Qn-gRIA) 提取码：0375  来自群友 @https://github.com/twotreeszf分享
 
 
 ## 致谢
