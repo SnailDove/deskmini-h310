@@ -4,7 +4,7 @@
 
 ### 版本迭代
 
-本人的 **Clover EFI**和 **OC EFI** : 适配以下系统版本
+本人的 **Clover EFI** 和 **OC EFI** : 适配以下系统版本
 
 1. Catalina 15.4 : 已经测试未发现问题
 2. Catalina 15.5 : 双屏输出的时候HDMI口待验证，其他经过验证没有问题
@@ -153,8 +153,8 @@
         - 油管从零开始的教程：[To create a vanilla hackintosh from scratch, you can follow this guide](https://www.youtube.com/watch?v=6KGuINOyHh0) 
         -  [黑果OpenCore引导配置教程01：EFI文件夹的整理](https://www.bilibili.com/video/BV1gE411L7Sw)
         -  [黑果OpenCore引导配置教程02：config的详细设置](https://www.bilibili.com/video/BV1nE411j7Wm/?spm_id_from=333.788.videocard.0)
-        -  [【知其然03】那些黑果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
-        
+
+[【知其然03】那些黑果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
 
  ## 资源
 
@@ -177,9 +177,9 @@
 
 #### 本机型相关资源
 
-1. 目前我本人使用 **EFI** : https://github.com/zsyshuyang/Hackintosh-EFI-For-Deskmini-310-i5-9400-DW1560 大佬的分享，去掉网卡驱动，然后进一步修复如下功能（小白的话直接将我的EFI替换掉系统盘的EFI即可）：
+1. 目前我本人使用 **Clover EFI** : https://github.com/zsyshuyang/Hackintosh-EFI-For-Deskmini-310-i5-9400-DW1560 大佬的分享，去掉网卡驱动，然后进一步修复如下功能（小白的话直接将我的EFI替换掉系统盘的EFI即可）：
 
-    - 修复了HDMI口开机和睡醒黑屏问题（即无信号问题）
+    - 修复了 Catalina 15.4 HDMI口开机和睡醒黑屏问题（即无信号问题），15.5 HDMI 无效
       
         - 在Clover Configurator中将你的config.plist的Boot中将`igfxonln = 1`添加到您的启动参数中即可。详解参考：http://bbs.pcbeta.com/viewthread-1850729-1-1.html
         
@@ -288,9 +288,10 @@
 ### 台式电脑突然断电后无法启动
 
 试一试：
-1.主板放下电。关机du，插排电源也关掉。把主板BIOS电池取下。zhi五分钟后，重新插入daoBIOS电池，开机，如果能开，选择Load Optimize Default 载入BIOS默认设置。
-2.电源这边，可以找其他电源替换一下，或者把自己的电源用在其他机器试一下。另外不要忽视电源线的问题。
-3.突然断电后无法启动是由于主板突然断电的自动保护所致，过段时间能够开机算是正常的。
+
+1. 主板放下电。关机，插排电源也关掉。把主板BIOS电池取下。五分钟后，重新插入BIOS电池，开机，如果能开，选择Load Optimize Default 载入BIOS默认设置。
+2. 电源这边，可以找其他电源替换一下，或者把自己的电源用在其他机器试一下。另外不要忽视电源线的问题。
+3. 突然断电后无法启动是由于主板突然断电的自动保护所致，过段时间能够开机算是正常的。
 
 
 ## 致谢
@@ -303,6 +304,10 @@
 6. https://github.com/leogitpro/Hackintosh-DeskMini310
 7. https://blog.xjn819.com/?p=7
 8. https://github.com/csrutil/DeskMini
+
+
+
+
 
 
 
