@@ -1,7 +1,5 @@
 ## 前言
 
-[Deskmini-h310 小白硬件组装视频教程](https://www.bilibili.com/video/BV1bt411m77L/?spm_id_from=333.788.videocard.0)
-
 我是**第一次**装机且**第一次**装黑果，在大佬的帮助下已经近乎完美黑果，目前已经使用一个月，并无问题，**我只对我自己试验过的的机型，硬件，系统镜像以及使用的efi和装机工具有发言权**。对于教程和资源下文都可以获取。鼓励大家有能力要支持正版软件，一方面，任何成果都是工程师辛苦付出的结果；再者，请大家遵守相关法律法规，**本人玩这个黑果，只是出于个人娱乐目的，如有侵犯别人知识版权和商业利益，请告知本人删除相关侵权的资源**！！！
 
 ### 版本迭代
@@ -11,7 +9,7 @@
 1. Catalina 15.4 : 已经测试未发现问题
 2. Catalina 15.5 : 双屏输出的时候HDMI口待验证，其他经过验证没有问题
     - [macos catalina 10.15.5 (19F96) hdmi external display black screen #938](https://github.com/acidanthera/bugtracker/issues/938) （多种方案可供参考）
-    - [有大神能解决八代核显10.15.5hdmi黑屏问题吗？](http://bbs.pcbeta.com/viewthread-1858867-1-1.html)
+    - [解决八代核显10.15.5hdmi黑屏问题吗？](http://bbs.pcbeta.com/viewthread-1858867-1-1.html)
 
 在原来硬盘上分区出来或者在另外一个硬盘上面可以随便升级和试验操作而且不会影响你当前正在使用的稳定MacOS版本，这样稳定和可玩性都具备（有时间折腾的朋友必备）：
 
@@ -20,7 +18,7 @@
 
 彩蛋：[【司波图】10代最强带核显黑苹果装机实战及性能演示，附安装所需的注意事项](https://www.bilibili.com/video/BV17t4y1y7uu)
 
-**重要提示**：建议大家到黑果小兵公众号下载多种引导集一身的镜像，这样子可以在 Linux，WinPE，OC，Clover引导中随意切换，可玩性和日后升级都比较方便。
+**重要提示**：建议大家到黑果小兵公众号下载多种引导集一身的镜像，这样子可以在 Linux grub，WinPE，OC，Clover引导中随意切换，可玩性和日后升级都比较方便。
 
 ## 装机结果
 
@@ -50,40 +48,18 @@
 
 - HiDPI——优化各个分辨率下的显示器显示效果
 
-    开启HiDPI以后，在偏好设置里面选择（我是便携超薄显示器 2k 72%NTSC 约等于 100%SRGB）：
-
-    ![HiDPI-setting.jpeg，用梯子才能看到图](./HiDPI-setting.jpeg)
-
-    下面第一张是开启HiDPI-720p，第二张1080p，第三张2k，对比一下观感:
-
-    1. 开启HiDPI-720p
-
-        ![开启HiDPI，用梯子才能看到图](./HiDPI.png)
-
-    2. 1080p
-    
-        ![未开启HiDPI，用梯子才能看到图](./1080p-NotHiDPI.png)
-    
-    3. 2k
-    
-        ![未开启HiDPI-2K，用梯子才能看到图](./2K-NotHiDPI.jpeg)
-
 ### 未完成的功能
 
 1. VGA 口（最高只支持1080p，苹果系统用1080p太为难了）。有人在7代U上成功了：[VGA+HD630在10.15.4上成功驱动显卡](https://www.bilibili.com/video/BV12k4y1R7Ko)，也可以使自己使用Hackintool定制？可是原生机型并没有VGA口。
 2. SD卡待测，没有SD卡，暂不需要，需要的请注意。
 
-## 本人需求
-
-我作为小白用户只求装完机，安安静静地使用 MacOS 带来的便利性，装机越简单功能越完善越好，任何软件系统重要的是服务用户的使用，我也不会不断升级，系统稳定最重要。
-
 ![deskmini-h310_黑果群，用梯子才能看到，主要是程序员，平常忙于工作，一般是休闲时间互相帮忙](./deskmini-h310_黑果群.png)
 
 ## 硬件配置
 
-| 项目类型  | 具体型号                       | 价钱（RMB）（3月份中旬购买） | 购买渠道 |
+| 项目类型  | 具体型号                       | 价钱（RMB）（2020.3月份中旬购买） | 购买渠道 |
 |:-------: | ------------------------------ | :---------: |--------- |
-|   固态    | 海康威视 c2000 pro 1TB （没有一赔三，有的话麻烦请告知渠道，赔偿分你一些，嘻嘻）<br/>1. 写入2.7G/s 读取3.1g/s——测速工具Mac版本DiskSpeedTest，没有持续压力测试（软件自带压力测试最多是5G）<br/>2. 实测体验：3.0 U盘（读取速度100MB/s）拷贝28G多到这块盘，不到3分钟。<br/>3. 占满200G以后，日常使用中，随机测速：写入2.55 -> 2.78G/s 读取2.75 -> 2.95G/s——测速工具Mac版本DiskSpeedTest，没有持续压力测试（软件自带压力测试最多是5G） |     939     | 狗东 |
+|   固态    | 海康威视 c2000 pro 1TB （没有一赔三，有的话麻烦请告知渠道，赔偿分你一些，嘻嘻）<br/>1. 写入2.7G/s 读取3.1g/s——测速工具Mac版本的DiskSpeedTest，没有持续压力测试（软件自带压力测试最多是5G）<br/>2. 实测体验：3.0 U盘（读取速度100MB/s）拷贝28G多到这块盘，不到3分钟。<br/>3. 占满200多G以后，日常使用中，随机测速：写入2.55 -> 2.78G/s 读取2.75 -> 3.1G/s——测速工具Mac版本DiskSpeedTest，没有持续压力测试（软件自带压力测试最多是5G） |     939     | 狗东 |
 |   风扇    | 猫头鹰静音风扇NH-L9i（淘宝有卖家专门给风扇喷涂石墨烯，导热效果更好，本人没有试验过） |     300     | 狗东 |
 | 无线网卡  | M2接口转接卡+苹果原装拆机卡BCM94360CS2 （免驱动） + 双天线<br/>5月底更新：**[IntelWIFI 网卡也能用啦](http://bbs.pcbeta.com/viewthread-1856465-1-1.html)** |     182     | 淘宝 |
 |    CPU   | 8500 散片，拿到手开机电压 0.98v 并且正常使用中 |  1356   | 狗东第三方卖家（略贵一点点） |
@@ -91,9 +67,7 @@
 |  显示器   | 便携 2k 显示器                 |     658     | 淘宝 |
 | 机箱+主板 | deskmini 310                   |     979     | 狗东 |
 
-自从疫情，全部涨价，我购买日期3月中旬，年前起码便宜六七百。小白第一次装机，没有旧配件和垃圾佬的水平，咸鱼也不碰，以后捡垃圾玩玩😆，不着急的小伙伴等6.18或者疫情过去又或者Intel新一代的CPU发布，到那时候价格比较香。我的黑果跑分如下，跟其他白苹果的对比（下文还列举其他人本机型黑果CPU跑分总分超过2019款15寸MacBook Pro顶配：[搭配i9-9900t ES版本CPU的性能情况，cinebench R20 超过 i7-8700k的跑分](https://www.bilibili.com/video/BV1Zk4y1d74t/?spm_id_from=333.788.videocard.12)：
-
-![对比图，用梯子才能看到图](./Versus.jpg)
+自从疫情，全部涨价，我购买日期3月中旬，年前起码便宜六七百。小白第一次装机，没有旧配件和垃圾佬的水平，咸鱼也不碰，以后捡垃圾玩玩😆，不着急的小伙伴等6.18或者疫情过去又或者Intel新一代的CPU发布，到那时候价格比较香。
 
 ### 4K IPS显示器推荐
 
@@ -121,6 +95,8 @@
 **注意：** 有Type C接口可以给笔记本电脑反向充电，这样连一根线到显示器，笔记本又可以充电又可以扩展屏幕。桌面干净整洁。
 
 ## 装机过程
+
+[Deskmini-h310 小白硬件组装视频教程](https://www.bilibili.com/video/BV1bt411m77L/?spm_id_from=333.788.videocard.0)
 
 ### Bios设置（P4.2）插入U盘开始装MacOS开始前设置
 
@@ -154,27 +130,31 @@
 
     - CSM enable, only UEFI
 
-
-
 **注意**：装机和黑果有风险，注意重要的数据提前备份。**都是小白教程，且带有工具下载链接**：
 
 [孰优孰劣？OC引导与clover引导对比，现在有必要强行更换OC引导吗](https://www.bilibili.com/video/BV1zE411T7RB)
 
-1. **Clover引导**：我这个小白根据这个 [视频教程](https://www.bilibili.com/video/BV1da4y147my) ：我按照视频教程操作到 13:11，因为我的m2型号的固态硬盘上只安装MacOS，所以我只进行到 13:11，**然后不要拔掉U盘**，使用Clover Configurator工具将U盘里面的efi（注意不是winpe目录下的efi，而是跟winpe同一级目录的efi文件夹）替换掉装完机的MacOS系统上的EFI。下一步就是（这一步作用：防止跟别人一样进而影响到你的苹果账号的使用，严重的话会被苹果封号）：[更改三码](https://blog.csdn.net/weixin_43912833/article/details/102408559) 。
+1. **Clover引导**
+
+    - 我这个小白根据这个 [视频教程](https://www.bilibili.com/video/BV1da4y147my) ：我按照视频教程操作到 13:11，因为我的m2型号的固态硬盘上只安装MacOS，所以我只进行到 13:11，**然后不要拔掉U盘**，使用Clover Configurator工具将U盘里面的efi（注意不是winpe目录下的efi，而是跟winpe同一级目录的efi文件夹）替换掉装完机的MacOS系统上的EFI。下一步就是（这一步作用：防止跟别人一样进而影响到你的苹果账号的使用，严重的话会被苹果封号）：[更改三码](https://blog.csdn.net/weixin_43912833/article/details/102408559) 。
 
     [【知其然01】黑果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
 
     [【知其然02】黑果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
 
-2. **OpenCore引导**：[Intel Coffee Lake平台完美黑果系统安装教程（Opencore+Catalina15.4）](https://www.bilibili.com/video/BV1hA411t7dr/)，up主带你亲自阅读官方教程，一步步配置参数和驱动讲解，讲解参数含义与作用。
+2. **OpenCore引导**
 
-    **MacOS下制作OpenCore引导**：
+    - 文本
+        - [XJN blog : 使用OpenCore引导黑果](https://blog.xjn819.com/?p=543)
+        - [黑果小兵：精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
 
-    [黑果OpenCore引导配置教程01：EFI文件夹的整理](https://www.bilibili.com/video/BV1gE411L7Sw)
-
-    [黑果OpenCore引导配置教程02：config的详细设置](https://www.bilibili.com/video/BV1nE411j7Wm/?spm_id_from=333.788.videocard.0)
-
-    [【知其然03】那些黑果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
+    - 视频
+        - [Intel Coffee Lake平台完美黑果系统安装教程（Opencore+Catalina15.4）](https://www.bilibili.com/video/BV1hA411t7dr/)，up主带你亲自阅读官方教程，一步步配置参数和驱动讲解，讲解参数含义与作用。
+        - 油管从零开始的教程：[To create a vanilla hackintosh from scratch, you can follow this guide](https://www.youtube.com/watch?v=6KGuINOyHh0) 
+        -  [黑果OpenCore引导配置教程01：EFI文件夹的整理](https://www.bilibili.com/video/BV1gE411L7Sw)
+        -  [黑果OpenCore引导配置教程02：config的详细设置](https://www.bilibili.com/video/BV1nE411j7Wm/?spm_id_from=333.788.videocard.0)
+        -  [【知其然03】那些黑果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
+        
 
  ## 资源
 
@@ -197,7 +177,7 @@
 
 #### 本机型相关资源
 
-1. 目前我本人使用 **EFI** : https://github.com/zsyshuyang/Hackintosh-EFI-For-Deskmini-310-i5-9400-DW1560 大佬的分享，然后进一步修复如下功能（小白的话直接将我的EFI替换掉系统盘的EFI即可）：
+1. 目前我本人使用 **EFI** : https://github.com/zsyshuyang/Hackintosh-EFI-For-Deskmini-310-i5-9400-DW1560 大佬的分享，去掉网卡驱动，然后进一步修复如下功能（小白的话直接将我的EFI替换掉系统盘的EFI即可）：
 
     - 修复了HDMI口开机和睡醒黑屏问题（即无信号问题）
       
@@ -302,6 +282,15 @@
 
 1. [MacBook、Mac新手必备的20个小技巧，效率提升](https://www.bilibili.com/video/BV19t4y117Lr/)
 2. [Mac图文操作说明指南](https://pan.baidu.com/s/1B0lYYeraRwLXLd-Qn-gRIA) 提取码：0375  来自群友 @https://github.com/twotreeszf分享
+
+## 使用过程的问题
+
+### 台式电脑突然断电后无法启动
+
+试一试：
+1.主板放下电。关机du，插排电源也关掉。把主板BIOS电池取下。zhi五分钟后，重新插入daoBIOS电池，开机，如果能开，选择Load Optimize Default 载入BIOS默认设置。
+2.电源这边，可以找其他电源替换一下，或者把自己的电源用在其他机器试一下。另外不要忽视电源线的问题。
+3.突然断电后无法启动是由于主板突然断电的自动保护所致，过段时间能够开机算是正常的。
 
 
 ## 致谢
