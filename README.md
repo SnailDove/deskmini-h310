@@ -8,13 +8,13 @@
 
 1. Catalina 15.4 : 已经测试未发现问题
 
-2. Catalina 15.5 : 双屏输出的时候HDMI口待验证，其他经过验证没有问题
+2. Catalina 15.5 : 双屏输出解决方案如下，其他经过验证没有问题
+   
+    **已排除的失败方案**：只替换AAL,ig-platform-id为00009B3E确定不行。
     
-    已排除的失败方案：只替换AAL,ig-platform-id为00009B3E确定不行。
-    
-    - [macos catalina 10.15.5 (19F96) hdmi external display black screen #938](https://github.com/acidanthera/bugtracker/issues/938) （多种方案可供参考）
-    - [解决八代核显10.15.5hdmi黑屏问题吗？](http://bbs.pcbeta.com/viewthread-1858867-1-1.html)
-    - [祖传土方根治10.15.5正式版UHD630黑屏问题](http://bbs.pcbeta.com/viewthread-1859830-1-1.html)
+    - **未验证**：[macos catalina 10.15.5 (19F96) hdmi external display black screen #938](https://github.com/acidanthera/bugtracker/issues/938) （多种方案可供参考）
+    - **未验证**：[解决八代核显10.15.5hdmi黑屏问题吗？](http://bbs.pcbeta.com/viewthread-1858867-1-1.html)
+    - **验证可行**：[祖传土方根治10.15.5正式版UHD630黑屏问题](http://bbs.pcbeta.com/viewthread-1859830-1-1.html)
 
 在原来硬盘上分区出来或者在另外一个硬盘上面可以随便升级和试验操作而且不会影响你当前正在使用的稳定MacOS版本，这样稳定和可玩性都具备（有时间折腾的朋友必备）：
 
