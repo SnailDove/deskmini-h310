@@ -7,9 +7,14 @@
 本人的 **Clover EFI** 和 **OC EFI** : 适配以下系统版本
 
 1. Catalina 15.4 : 已经测试未发现问题
+
 2. Catalina 15.5 : 双屏输出的时候HDMI口待验证，其他经过验证没有问题
+    
+    已排除的失败方案：只替换AAL,ig-platform-id为00009B3E确定不行。
+    
     - [macos catalina 10.15.5 (19F96) hdmi external display black screen #938](https://github.com/acidanthera/bugtracker/issues/938) （多种方案可供参考）
     - [解决八代核显10.15.5hdmi黑屏问题吗？](http://bbs.pcbeta.com/viewthread-1858867-1-1.html)
+    - [祖传土方根治10.15.5正式版UHD630黑屏问题](http://bbs.pcbeta.com/viewthread-1859830-1-1.html)
 
 在原来硬盘上分区出来或者在另外一个硬盘上面可以随便升级和试验操作而且不会影响你当前正在使用的稳定MacOS版本，这样稳定和可玩性都具备（有时间折腾的朋友必备）：
 
@@ -144,10 +149,10 @@
 
 2. **OpenCore引导**
 
+    - 跟Clover引导的安装过程一样，只不过替换U盘中的系统EFI的时候，采用xjn大佬博客分享的EFI，然后进行了细微调整。
     - 文本
         - [XJN blog : 使用OpenCore引导黑果](https://blog.xjn819.com/?p=543)
-        - [黑果小兵：精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
-
+    - [黑果小兵：精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
     - 视频
         - [Intel Coffee Lake平台完美黑果系统安装教程（Opencore+Catalina15.4）](https://www.bilibili.com/video/BV1hA411t7dr/)，up主带你亲自阅读官方教程，一步步配置参数和驱动讲解，讲解参数含义与作用。
         - 油管从零开始的教程：[To create a vanilla hackintosh from scratch, you can follow this guide](https://www.youtube.com/watch?v=6KGuINOyHh0) 
@@ -304,10 +309,5 @@
 6. https://github.com/leogitpro/Hackintosh-DeskMini310
 7. https://blog.xjn819.com/?p=7
 8. https://github.com/csrutil/DeskMini
-
-
-
-
-
 
 
