@@ -254,15 +254,6 @@
 				<key>model</key>
 				<string>Cannon Lake PCH PCI Express Root Port #7</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0/0,0</string>
-				<key>device_type</key>
-				<string>Network controller</string>
-				<key>model</key>
-				<string>BCM4360 802.11ac Wireless Network Adapter</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -276,12 +267,12 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
+				<key>device-id</key>
+				<data>HAAAAA==</data>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>model</key>
 				<string>Cannon Lake PCH cAVS</string>
-				<key>device-id</key>
-				<data>HAAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
 			<dict>
@@ -836,7 +827,7 @@
 			<key>MLB</key>
 			<string>C07011902J9KXPG8C</string>
 			<key>ROM</key>
-			<data>BstFwUlV</data>
+			<data>uFYO0DNp</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
@@ -844,7 +835,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C07Z4NY3JYVX</string>
 			<key>SystemUUID</key>
-			<string>027CD8E2-0EC6-444B-9F6E-F66D42C14955</string>
+			<string>4B030FA3-C66D-48A5-96A6-6D9AEDD03369</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
