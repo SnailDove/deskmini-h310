@@ -4,17 +4,15 @@
 
 ### 版本迭代
 
-本人的 **Clover EFI** 和 **OC EFI** : 适配以下系统版本（直接从15.4升级到15.5，再升级到15.6）
+本人的 **Clover EFI** 和 **OC EFI** : 适配以下系统版本（直接从15.4升级到15.5，再升级到15.6，15.7）
 
 1. **Catalina 15.4** : 已经测试未发现问题
 
-2. **Catalina 15.5 或 15.6** : 双屏输出时，HDMI口解决方案如下，其他经过验证没有问题
-   
-    **已排除的失败方案**：只替换AAL,ig-platform-id为`00009B3E`确定不行。
+2. **Catalina 15.5、15.6、15.7 和 11.0 beta** : 双屏输出时，HDMI口解决方案如下
     
-    - **验证可行**：[祖传土方根治10.15.5正式版UHD630黑屏问题](http://bbs.pcbeta.com/viewthread-1859830-1-1.html)，感谢 @https://github.com/twotreeszf 的验证
-    - **未验证**：[macos catalina 10.15.5 (19F96) hdmi external display black screen #938](https://github.com/acidanthera/bugtracker/issues/938) （多种方案可供参考）
-    - **未验证**：[解决八代核显10.15.5hdmi黑屏问题吗？](http://bbs.pcbeta.com/viewthread-1858867-1-1.html)
+    - **验证可行方案1**：[祖传土方根治10.15.5正式版UHD630黑屏问题](http://bbs.pcbeta.com/viewthread-1859830-1-1.html)，感谢 @https://github.com/twotreeszf 的验证
+    - **验证可行方案2**: 更新最新的 Lilu.kext 和 whatevergreen.kext(1.4.3版本)，感谢群友验证此方案的可行性！—— 2020.10.27记录
+
 
 在原来硬盘上分区出来或者在另外一个硬盘上面可以随便升级和试验操作而且不会影响你当前正在使用的稳定MacOS版本，这样稳定和可玩性都具备（有时间折腾的朋友必备）：
 
