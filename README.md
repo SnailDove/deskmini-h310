@@ -11,7 +11,7 @@
 2. **Catalina 15.5、15.6、15.7 和 11.0 beta** : 双屏输出时，HDMI口解决方案如下
     
     - **验证可行方案1**：[祖传土方根治10.15.5正式版UHD630黑屏问题](http://bbs.pcbeta.com/viewthread-1859830-1-1.html)，感谢 @https://github.com/twotreeszf 的验证
-    - **验证可行方案2**: 更新最新的 Lilu.kext 和 whatevergreen.kext(1.4.3版本)，感谢群友验证此方案的可行性！—— 2020.10.27记录
+    - **验证可行方案2**: 更新最新的 [Lilu.kext](https://github.com/acidanthera/Lilu/releases) 和 [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen/releases/tag/1.4.3)，感谢群友验证此方案的可行性！—— 2020.10.27记录
 
 
 在原来硬盘上分区出来或者在另外一个硬盘上面可以随便升级和试验操作而且不会影响你当前正在使用的稳定MacOS版本，这样稳定和可玩性都具备（有时间折腾的朋友必备）：
