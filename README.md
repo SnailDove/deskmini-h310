@@ -76,7 +76,7 @@
 
 ### 4K IPS显示器推荐
 
-按京东性价比由低到高：
+按🐶东性价比由低到高：
 
 1. KOIOS、小米
 2. AOC、创维、优派（ViewSonic）、飞利浦（被AOC收购）、游戏领域：微星、华硕等等
@@ -84,11 +84,12 @@
 6. 苹果官网卖得显示器：[LG UltraFine 4K 显示屏](https://www.baidu.com/link?url=rk8XC7856Tlj_qbbRc-XDx3-MfQQYfo5Htb6TlG4_wODI7azGAt6wKdH6FLiCWgiOnt3hDu6TIiMsB_aOrdOw_&wd=&eqid=9c2af2c800024023000000055ed9102e) ，[LG UltraFine 5K 显示屏](https://www.baidu.com/link?url=t46PgIIcXszD-1LXJK4AcPl2wYsgZnpcd-7XYDoNuyDQ5abJdGxVAN1fcxCQa9oXigGS0d6OZvW4dNiV9pcIY_&wd=&eqid=9c2af2c800024023000000055ed9102e)， [Pro Display XDR](https://www.apple.com.cn/pro-display-xdr/)
 5. ······更专业的显示器
 
-**注明：** 每个牌子都有不同系列显示器，都有高中低端系列，主要关注这些参数（小白科普文章）：
+**注明：** 每个牌子都有不同系列显示器，都有高中低端系列，主要关注这些参数（大而全的[小白科普文章](显示器选购中有哪些坑？2020 有哪些显示器推荐？ - Orange的文章 - 知乎 https://zhuanlan.zhihu.com/p/111413153)）：
 
-- 色域：苹果电脑都是是Display P3不是DCI-P3，[色域是什么？ 显示器屏幕色域sRGB,NTSC,Adobe RGB,P3,PAL区别对比](https://zhuanlan.zhihu.com/p/136403493)
-- 分辨率和DPI（Dots Per Inch）：[分辨率和像素是什么关系？ - 小7的背包的回答 - 知乎](https://www.zhihu.com/question/21149600/answer/724435661)
-- 面板：[显示器TN、IPS、VA面板类型哪个好? - 林远的回答 - 知乎](https://www.zhihu.com/question/57854431/answer/868319230)
+- **色域、色域覆盖（不等于色域容积）、色准、色深**：苹果电脑都是是Display P3不是DCI-P3，[色域是什么？ 显示器屏幕色域sRGB,NTSC,Adobe RGB,P3,PAL区别对比](https://zhuanlan.zhihu.com/p/136403493)
+- **PPI**（Pixels Per Inch）：[分辨率和像素是什么关系？ - 小7的背包的回答 - 知乎](https://www.zhihu.com/question/21149600/answer/724435661)
+- **静态对比度（不是动态对比度）**：屏幕能显示的最亮和最暗的亮度比值，比值越大那么从最暗到最亮的渐变变化阶梯数就越多，画面层次就越丰富，表现力就更强，特别显示暗部和阴影的时候不会显示一团黑而是渐变的，即有层次。
+- **面板**：[显示器TN、IPS、VA面板类型哪个好? - 林远的回答 - 知乎](https://www.zhihu.com/question/57854431/answer/868319230) 
 - 出厂是否校色：屏幕想显示某个颜色到真实世界中那个颜色的偏差，偏差控制越小那么就越接近现实世界真实值。这个偏差又称：Delta E；出厂校色就是产品出厂之前厂家帮你校色了，然后送到经销商手上。
 - 三包政策。
 
