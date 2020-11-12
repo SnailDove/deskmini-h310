@@ -302,4 +302,5 @@
 5. https://github.com/isNextJuly/Hackintosh-EFI-for-deskmini-310-i7-8700
 6. https://github.com/leogitpro/Hackintosh-DeskMini310
 7. https://blog.xjn819.com/?p=7
-8. https://github.com/csrutil/DeskMini
+8. https://github.com/xjn819/Hackintosh-Deskmini310-EFI
+9. https://github.com/csrutil/DeskMini
