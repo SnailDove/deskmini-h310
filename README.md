@@ -8,20 +8,19 @@
 
 **备注：Clover EFI的15.6及以后的版本，已经不再维护 2020.10.27记**
 
-1. **Catalina 15.4->15.5->15.6->15.7->11.0 beta** : 双屏输出时，15.5及以后版本系统的HDMI口解决方案如下
+1. **Catalina 15.4->15.5->15.6->15.7** : 双屏输出时，15.5及以后版本系统的HDMI口解决方案如下
+    
     - **验证可行方案1**：[祖传土方根治10.15.5正式版UHD630黑屏问题](http://bbs.pcbeta.com/viewthread-1859830-1-1.html)，感谢群友 @https://github.com/twotreeszf 的验证 备注：2020.06记
     - **验证可行方案2**: [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen/releases/) （更新到1.4.1以后） ，感谢群友 @https://github.com/xiangsanliu 验证此方案的可行性！—— 备注：2020.10.27记
+    
+2. **11.0.1 正式版本的EFI**，欢迎加入我们（主要是程序员，平常忙于工作，一般是休闲时间互相帮忙）：
 
-
+    ![deskmini-h310_黑果群，用梯子才能看到，主要是程序员，平常忙于工作，一般是休闲时间互相帮忙](./deskmini-h310_黑果群.png)
 
 在原来硬盘上分区出来或者在另外一个硬盘上面可以随便升级和试验操作而且不会影响你当前正在使用的稳定MacOS版本，这样稳定和可玩性都具备（有时间折腾的朋友必备）：
 
 1. [苹果官网：在单独的 APFS 宗卷上安装 macOS](https://support.apple.com/zh-cn/HT208891) 官网第一句话：通过 APFS，您可以更轻松地在不同版本的 macOS 之间切换，包括 Beta 版（预发布版）macOS。
 2. [苹果官网：在 Mac 上的“磁盘工具”中将物理磁盘分区](https://support.apple.com/zh-cn/guide/disk-utility/dskutl14027/mac) 
-
-彩蛋：[【司波图】10代最强带核显黑苹果装机实战及性能演示，附安装所需的注意事项](https://www.bilibili.com/video/BV17t4y1y7uu)
-
-**重要提示**：建议大家到黑果小兵公众号下载多种引导集一身的镜像，这样子可以在 Linux grub，WinPE，OC，Clover引导中随意切换，可玩性和日后升级都比较方便。
 
 ## 装机结果
 
@@ -56,8 +55,6 @@
 1. VGA 口（最高只支持1080p，苹果系统用1080p太为难了）。有人在7代U上成功了：[VGA+HD630在10.15.4上成功驱动显卡](https://www.bilibili.com/video/BV12k4y1R7Ko)，也可以使自己使用Hackintool定制？可是原生机型并没有VGA口。
 2. SD卡待测，没有SD卡，暂不需要，需要的请注意。
 
-![deskmini-h310_黑果群，用梯子才能看到，主要是程序员，平常忙于工作，一般是休闲时间互相帮忙](./deskmini-h310_黑果群.png)
-
 ## 硬件配置
 
 | 项目类型  | 具体型号                                                     | 价钱（RMB）（2020.3月份中旬购买） | 购买渠道                                                     |
@@ -82,7 +79,7 @@
 6. 苹果官网卖得显示器：[LG UltraFine 4K 显示屏](https://www.baidu.com/link?url=rk8XC7856Tlj_qbbRc-XDx3-MfQQYfo5Htb6TlG4_wODI7azGAt6wKdH6FLiCWgiOnt3hDu6TIiMsB_aOrdOw_&wd=&eqid=9c2af2c800024023000000055ed9102e) ，[LG UltraFine 5K 显示屏](https://www.baidu.com/link?url=t46PgIIcXszD-1LXJK4AcPl2wYsgZnpcd-7XYDoNuyDQ5abJdGxVAN1fcxCQa9oXigGS0d6OZvW4dNiV9pcIY_&wd=&eqid=9c2af2c800024023000000055ed9102e)， [Pro Display XDR](https://www.apple.com.cn/pro-display-xdr/)
 5. ······更专业的显示器
 
-**注明：** 每个牌子都有不同系列显示器，都有高中低端系列，主要关注这些参数（大而全的[小白科普文章](显示器选购中有哪些坑？2020 有哪些显示器推荐？ - Orange的文章 - 知乎 https://zhuanlan.zhihu.com/p/111413153)）：
+**注明：** 每个牌子都有不同系列显示器，都有高中低端系列，主要关注这些参数（ 大而全的小白科普文章[显示器选购中有哪些坑？2020 有哪些显示器推荐？ - Orange的文章 - 知乎](https://zhuanlan.zhihu.com/p/111413153) ）：
 
 - **色域、色域覆盖（不等于色域容积）、色准、色深**：苹果电脑都是是Display P3不是DCI-P3，[色域是什么？ 显示器屏幕色域sRGB,NTSC,Adobe RGB,P3,PAL区别对比](https://zhuanlan.zhihu.com/p/136403493)
 - **PPI**（Pixels Per Inch）：[分辨率和像素是什么关系？ - 小7的背包的回答 - 知乎](https://www.zhihu.com/question/21149600/answer/724435661)
@@ -137,7 +134,7 @@
 
     - 跟Clover引导的安装过程一样，只不过替换U盘中的系统EFI的时候，采用xjn大佬博客分享的EFI，然后进行了细微调整。
     - 视频
-        - [Intel Coffee Lake平台完美黑果系统安装教程（Opencore+Catalina15.4）](https://www.bilibili.com/video/BV1hA411t7dr/)，up主带你亲自阅读官方教程，一步步配置参数和驱动讲解，讲解参数含义与作用。
+        - [Intel Coffee Lake平台完美黑果系统安装教程（Opencore+Catalina15.4）](https://www.bilibili.com/video/BV1hA411t7dr/)，up主带你亲自阅读官方教程，一步步配置参数和驱动讲解，讲解参数含义与作用。[【司波图】10代最强带核显黑苹果装机实战及性能演示，附安装所需的注意事项](https://www.bilibili.com/video/BV17t4y1y7uu)
         - 油管从零开始的教程：[To create a vanilla hackintosh from scratch, you can follow this guide](https://www.youtube.com/watch?v=6KGuINOyHh0)
         - [黑果OpenCore引导配置教程01：EFI文件夹的整理](https://www.bilibili.com/video/BV1gE411L7Sw)
         - [黑果OpenCore引导配置教程02：config的详细设置](https://www.bilibili.com/video/BV1nE411j7Wm/?spm_id_from=333.788.videocard.0)
@@ -191,6 +188,8 @@
     - 下载镜像以后，注意校验下载的镜像有木有损坏，**必须校验**，不能跳过！
 
         黑果小兵的 `macOS Catalina 10.15.4(19E287) Installer for Clover 5109 and WEPE Support UEFI and MBR.dmg` 的MD5值为 `c84ebeeb84c074729c11afca91c6f952`
+        
+        **重要提示**：建议大家到黑果小兵公众号下载多种引导集一身的镜像，这样子可以在 Linux grub，WinPE，OC，Clover引导中随意切换，可玩性和日后升级都比较方便。
 
 #### 黑果小白上手学习资源
 
