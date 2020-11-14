@@ -8,12 +8,10 @@
 
 **备注：Clover EFI的15.6及以后的版本，已经不再维护 2020.10.27记**
 
-1. **Catalina 15.4** : 已经测试未发现问题
-
-2. **Catalina 15.5、15.6、15.7 和 11.0 beta** : 双屏输出时，HDMI口解决方案如下
-   
+1. **Catalina 15.4->15.5->15.6->15.7->11.0 beta** : 双屏输出时，15.5及以后版本系统的HDMI口解决方案如下
     - **验证可行方案1**：[祖传土方根治10.15.5正式版UHD630黑屏问题](http://bbs.pcbeta.com/viewthread-1859830-1-1.html)，感谢群友 @https://github.com/twotreeszf 的验证 备注：2020.06记
-    - **验证可行方案2**: 更新最新的 [Lilu.kext](https://github.com/acidanthera/Lilu/releases) （截止写本稿日期最新版为 1.4.8）  和 [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen/releases/) （截止写本稿日期最新版为 1.4.3） ，感谢群友 @https://github.com/xiangsanliu 验证此方案的可行性！—— 备注：2020.10.27记
+    - **验证可行方案2**: [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen/releases/) （更新到1.4.1以后） ，感谢群友 @https://github.com/xiangsanliu 验证此方案的可行性！—— 备注：2020.10.27记
+
 
 
 在原来硬盘上分区出来或者在另外一个硬盘上面可以随便升级和试验操作而且不会影响你当前正在使用的稳定MacOS版本，这样稳定和可玩性都具备（有时间折腾的朋友必备）：
@@ -106,30 +104,22 @@
 - Advanced
 
     - CPU Chip Set
-
+        - Vt-d:  Disabled,
         - Onboard HD Audio: Enabled
-
     - CPU Configuration
 
-        - CPU C STATE SUPPORT Enabled
-
-            CFG Lock Disabled (**注意**：解除这个才能原生电源管理)
-
+        - CPU C STATE SUPPORT: Enabled
+    - CFG Lock: Disabled (**注意**：解除这个才能原生电源管理)
     - USB Configuration
 
         - XHCI Hand-off：Enabled
-
     - Super IO Configuration
 
-        - Serial Port, Disabled（必须）
-
-- Security
-
-    - Secure Boot, Disabled(by default)
-
-- Boot
-
-    - CSM enable, only UEFI
+        - Serial Port: Disabled（必须）
+    - Security
+    - Secure Boot: Disabled(by default)
+    - Boot
+    - CSM enable: only UEFI
 
 **注意**：装机和黑果有风险，注意重要的数据提前备份。**都是小白教程，且带有工具下载链接**：
 
@@ -137,7 +127,7 @@
 
 1. **Clover引导**
 
-    - 小白根据这个 [视频教程](https://www.bilibili.com/video/BV1da4y147my) ：按照视频教程操作到 13:11，因为m2型号的固态硬盘上只安装MacOS，所以只进行到 13:11，**然后不要拔掉U盘**，使用Clover Configurator工具将U盘里面的efi（注意不是winpe目录下的efi，而是跟winpe同一级目录的efi文件夹）替换掉装完机的MacOS系统上的EFI。下一步就是（这一步作用：防止跟别人一样进而影响到你的苹果账号的使用，严重的话会被苹果封号）：[更改三码](https://blog.csdn.net/weixin_43912833/article/details/102408559) 。
+    - 小白根据这个 [视频教程](https://www.bilibili.com/video/BV1da4y147my) ：按照视频教程操作到 13:11，因为m2型号的固态硬盘上只安装MacOS，所以只进行到 13:11，**然后不要拔掉U盘**，使用Clover Configurator工具将U盘里面的efi（注意不是winpe目录下的efi，而是跟winpe同一级目录的efi文件夹）替换掉装完机的MacOS系统上的EFI。下一步就是（这一步作用——防止跟别人一样进而影响到你的苹果账号的使用，严重的话会被苹果封号）：[更改三码](https://blog.csdn.net/weixin_43912833/article/details/102408559) 。
 
     [【知其然01】黑果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
 
@@ -146,16 +136,13 @@
 2. **OpenCore引导**
 
     - 跟Clover引导的安装过程一样，只不过替换U盘中的系统EFI的时候，采用xjn大佬博客分享的EFI，然后进行了细微调整。
-    - 文本
-        - [XJN blog : 使用OpenCore引导黑果](https://blog.xjn819.com/?p=543)
-    - [黑果小兵：精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
     - 视频
         - [Intel Coffee Lake平台完美黑果系统安装教程（Opencore+Catalina15.4）](https://www.bilibili.com/video/BV1hA411t7dr/)，up主带你亲自阅读官方教程，一步步配置参数和驱动讲解，讲解参数含义与作用。
         - 油管从零开始的教程：[To create a vanilla hackintosh from scratch, you can follow this guide](https://www.youtube.com/watch?v=6KGuINOyHh0)
         - [黑果OpenCore引导配置教程01：EFI文件夹的整理](https://www.bilibili.com/video/BV1gE411L7Sw)
         - [黑果OpenCore引导配置教程02：config的详细设置](https://www.bilibili.com/video/BV1nE411j7Wm/?spm_id_from=333.788.videocard.0)
-
-[【知其然03】那些黑果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
+        - 【知其然03】那些黑果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
+        
 
 ## 资源
 
@@ -178,38 +165,24 @@
 
 #### 本机型相关资源
 
-1. 目前的 **Clover EFI** 是在 : https://github.com/zsyshuyang/Hackintosh-EFI-For-Deskmini-310-i5-9400-DW1560基础上，去掉网卡驱动，然后进一步修复如下功能（小白的话直接将我的Clover EFI替换掉系统盘的EFI即可）：
+1. 开启HiDPI
 
-    - 修复了 Catalina 15.4 HDMI口开机和睡醒黑屏问题（即无信号问题）
+    [HiDPI是什么？以及黑果如何开启HiDPI](https://www.sqlsec.com/2018/09/hidpi.html)
 
-        - 在Clover Configurator中将你的config.plist的Boot中将`igfxonln = 1`添加到您的启动参数中即可。详解参考：http://bbs.pcbeta.com/viewthread-1850729-1-1.html
+2. HWP：Intel 的 HARDWARE-CONTROLLED PERFORMANCE STATES (HWP)，启用HWP即可锁住CPU最高频率，开启性能模式以后，我的i5 8500 CPU一直维持在4GHz上下。**注意**：我上传的EFI没有开启这个功能，原因是：不是通用需求，如有需要按照下列教程自行更改：
 
-    - 电源选项：加载原生电源管理
+    - [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
+    - [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
 
-        - 在Clover Configurator中将你的config.plist文件中点击ACPI，在ACPI页面右下角的`PluginType`选项勾选即可。
+3. **Deskmini-h310 主板功耗选项 Auto** （主板有功耗锁）
 
-    - 开机跳过Clover选择系统界面，直接进入白苹果系统的的加载进度条，生活工作基本上不需要Windows，为了以防万一也已经装了Windows虚拟机。**注意**：我上传的EFI没有开启这个功能，原因是：不是通用需求，如有需要按照下列教程自行更改：
-
-        - https://baijiahao.baidu.com/s?id=1651061346132267912&wfr=spider&for=pc
-
-    - 开启HiDPI
-
-        - [HiDPI是什么？以及黑果如何开启HiDPI](https://www.sqlsec.com/2018/09/hidpi.html)
-
-    - HWP：Intel 的 HARDWARE-CONTROLLED PERFORMANCE STATES (HWP)，启用HWP即可锁住CPU最高频率，开启性能模式以后，我的i5 8500 CPU一直维持在4GHz上下。**注意**：我上传的EFI没有开启这个功能，原因是：不是通用需求，如有需要按照下列教程自行更改：
-
-        - [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
-        - [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
-
-    - **Deskmini-h310 主板功耗选项 Auto** （主板有功耗锁）
-
-        据 @https://github.com/twotreeszf （配置：9900t ES 1.7Ghz基频版本，TDP：35W）反馈，在主板bios设置里，将CPU配置选项中“长时间功耗限制”，“短时间功耗设置”都改为65w(主板原先默认值为：Auto)，多核GeekBench跑分性能提升近1000分，多核跑分超过2019 15寸 Macbook Pro顶配版跑分（Macbook CPU 15寸顶配是 i9-9880h），全核8核能够3.3GHz左右，能够达到网上大多数对这颗U的普遍上限值，所有测试截图均在下面。知乎上其他网友也是这样的设置，才发挥出了相同的效果。**从得到有限样本总结来说，intel 9900t低压CPU的Auto策略偏保守，还要注意主板本身对CPU功耗而不是TDP的限制**。大家根据自身CPU设置合适值来物尽其用！
-
-        [![bios设置图，用梯子才能看到图](https://github.com/SnailDove/deskmini-h310/raw/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/disable_auto-tdp-lock.jpg)](https://github.com/SnailDove/deskmini-h310/blob/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/disable_auto-tdp-lock.jpg)
-
-        [![9900tES 跑分图，用梯子才能看到图](https://github.com/SnailDove/deskmini-h310/raw/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/9900t-es-1.7Base-GeekBench.png)](https://github.com/SnailDove/deskmini-h310/blob/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/9900t-es-1.7Base-GeekBench.png)
-
-        [![9900tES 满载的Intel Power Gadget图，用梯子才能看到图](https://github.com/SnailDove/deskmini-h310/raw/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/i9-9900t-es-1.7Base_Intel-Power-Gadget.png)](https://github.com/SnailDove/deskmini-h310/blob/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/i9-9900t-es-1.7Base_Intel-Power-Gadget.png)
+   据 @https://github.com/twotreeszf （配置：9900t ES 1.7Ghz基频版本，TDP：35W）反馈，在主板bios设置里，将CPU配置选项中“长时间功耗限制”，“短时间功耗设置”都改为65w(主板原先默认值为：Auto)，多核GeekBench跑分性能提升近1000分，多核跑分超过2019 15寸 Macbook Pro顶配版跑分（Macbook CPU 15寸顶配是 i9-9880h），全核8核能够3.3GHz左右，能够达到网上大多数对这颗U的普遍上限值，所有测试截图均在下面。知乎上其他网友也是这样的设置，才发挥出了相同的效果。**从得到有限样本总结来说，intel 9900t低压CPU的Auto策略偏保守，还要注意主板本身对CPU功耗而不是TDP的限制**。大家根据自身CPU设置合适值来物尽其用！
+   
+    [![bios设置图，用梯子才能看到图](https://github.com/SnailDove/deskmini-h310/raw/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/disable_auto-tdp-lock.jpg)](https://github.com/SnailDove/deskmini-h310/blob/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/disable_auto-tdp-lock.jpg)
+   
+    [![9900tES 跑分图，用梯子才能看到图](https://github.com/SnailDove/deskmini-h310/raw/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/9900t-es-1.7Base-GeekBench.png)](https://github.com/SnailDove/deskmini-h310/blob/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/9900t-es-1.7Base-GeekBench.png)
+   
+   ![9900tES 满载的Intel Power Gadget图，用梯子才能看到图](https://github.com/SnailDove/deskmini-h310/raw/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/i9-9900t-es-1.7Base_Intel-Power-Gadget.png)
 
 2. 镜像使用的是：
 
@@ -223,12 +196,9 @@
 
 注意在驱动的作用方面Clover引导与OpenCore引导并无差别，含义可以借鉴理解。
 
-1. [【知其然01】黑果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
-2. [【知其然02】黑果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
 3. [【黑果】MacOS Catalina 10.15.4 详细安装过程实录(附有工具下载链接)](https://www.bilibili.com/video/BV1da4y147my)
 4. [教程：利用Hackintool打开第8代核显HDMI/DVI输出的正确姿势](https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html)
 5. [黑果-HDMI输出简单教程](https://www.bilibili.com/video/BV1AT4y157oJ)，启发：机型匹配，毕竟原生的系统就是一一定制的结果。
-6. [Mojave UHD 630 on i5 8400 issues, have tried everything](https://www.tonymacx86.com/threads/mojave-uhd-630-on-i5-8400-issues-have-tried-everything.269368/page-3#post-1889723)
 7. [Hackintool教程——给FrameBuffer打补丁以驱动核显](https://www.bilibili.com/v/technology/wild/) 英文版： [Guide: Intel Framebuffer patching using WhateverGreen](https://www.tonymacx86.com/threads/guide-intel-framebuffer-patching-using-whatevergreen.256490/post-1856330)
 8. [macOS Catalina 10.15安装中常见的问题及解决方法](https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html)
 9. oc引导，傻瓜式教程，内含EFI：[华擎 DeskMini 310 黑果（hackintosh） 10.15（Catalina） OpenCore配置](https://www.bzqll.com/2020/01/329.html)
