@@ -4,18 +4,16 @@
 
 ### 版本迭代
 
-本人的 **Clover EFI** 和 **OC EFI** : 适配以下系统版本（直接从15.4升级到15.5，再升级到15.6，15.7）
+本人的 **Clover EFI** 和 **OC EFI** : 适配以下系统版本（**直接升级**：15.4->15.5->15.6->15.7），备注：Clover EFI的15.6及以后的版本，已经不再维护 2020.10.27记。
 
-**备注：Clover EFI的15.6及以后的版本，已经不再维护 2020.10.27记**
-
-1. **Catalina 15.4->15.5->15.6->15.7** : 双屏输出时，15.5及以后版本系统的HDMI口解决方案如下
-    
+1. 双屏输出时，15.5及以后版本系统的HDMI口解决方案如下
+   
     - **验证可行方案1**：[祖传土方根治10.15.5正式版UHD630黑屏问题](http://bbs.pcbeta.com/viewthread-1859830-1-1.html)，感谢群友 @https://github.com/twotreeszf 的验证 备注：2020.06记
     - **验证可行方案2**: [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen/releases/) （更新到1.4.1以后） ，感谢群友 @https://github.com/xiangsanliu 验证此方案的可行性！—— 备注：2020.10.27记
     
-2. **11.0.1 正式版本的EFI**，欢迎加入我们（主要是程序员，平常忙于工作，一般是休闲时间互相帮忙）：
+2. **Big Sur 11.0.1 正式版本的EFI**，欢迎加入我们（主要是程序员，平常忙于工作，一般是休闲时间互相帮忙）：
 
-    ![deskmini-h310_黑果群，用梯子才能看到，主要是程序员，平常忙于工作，一般是休闲时间互相帮忙](./deskmini-h310_黑果群.png)
+    ![deskmini-h310_黑果群，用梯子才能看到，主要是程序员，平常忙于工作，一般是休闲时间互相帮忙](README.assets/deskmini-h310_黑果群.png)
 
 在原来硬盘上分区出来或者在另外一个硬盘上面可以随便升级和试验操作而且不会影响你当前正在使用的稳定MacOS版本，这样稳定和可玩性都具备（有时间折腾的朋友必备）：
 
@@ -32,23 +30,26 @@
 
 - Ethernet/WIFI/Bluetooth/Audio/USB&EX-USB/Sensors
 
-- DP(4K 60Hz), HDMI(4k 30Hz) dual monitor output **两口开机睡眠均能唤醒不黑屏**
+- DP(4K 60Hz), HDMI(4k 30Hz) dual monitor output 
 
 - Shutdown/Sleep
 
-- IMessage/FaceTime/AppStore/ICloud/AirDrop/Handoff/**SideCar随航** 
+  两口开机睡眠均能唤醒不黑屏
 
-- HWP enable: **按照自己的意愿设置CPU的最低、日常想要的频率、最高频率**
+- IMessage/FaceTime/AppStore/iCloud/AirDrop/Handoff/SideCar 
 
-- VideoProc(仅供参考): H264/HEVC(即H265)/Hardware Decoder (**核显硬解已经测试通过：在视频转码时，通过Intel Power Gadget查看GPU频率，也可以使用Final Cut Pro X来验证**）
+- VideoProc(仅供参考): H264/HEVC(即H265)/Hardware Decoder 
 
-    ![VideoProc，用梯子才能看到图](./VideoProc.png)
+  核显硬解已经测试通过：在视频转码时，通过Intel Power Gadget查看GPU频率，也可以使用Final Cut Pro X来验证。
 
-- 系统对风扇自动调速
+- HWP：Intel 的 **H**ARD**W**ARE-CONTROLLED **P**ERFORMANCE STATES (HWP)，启用HWP即可按照自己的意愿设置CPU的最低、日常想要的频率、最高频率，开启性能模式以后，我的i5 8500 CPU一直维持在4GHz上下。注意：我上传的EFI没有开启这个功能，原因是：不是通用需求，如有需要按照下列教程自行更改：
 
-- CPU 睿频
+  - [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
+  - [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
+  
+- HiDPI——优化各个分辨率下的显示器显示效果，[HiDPI是什么？以及黑果如何开启HiDPI](https://www.sqlsec.com/2018/09/hidpi.html)
 
-- HiDPI——优化各个分辨率下的显示器显示效果
+  <img src="README.assets/Displays.jpg" style="zoom:40%;" />
 
 ### 未完成的功能
 
@@ -57,19 +58,76 @@
 
 ## 硬件配置
 
-| 项目类型  | 具体型号                                                     | 价钱（RMB）（2020.3月份中旬购买） | 购买渠道                                                     |
-| --------- | ------------------------------------------------------------ | --------------------------------- | ------------------------------------------------------------ |
-| 固态      | 海康威视 c2000 pro 1TB （没有一赔三，有的话麻烦请告知渠道，赔偿分你一些，嘻嘻）<br/>1. 写入2.7G/s 读取3.1g/s——测速工具Mac版本的DiskSpeedTest，没有持续压力测试（软件自带压力测试最多是5G） <br/>2. 实测体验：3.0 U盘（读取速度100MB/s）拷贝28G多到这块盘，不到3分钟。<br/>3. 占满200多G以后，日常使用中，随机测速：写入2.55 -> 2.78G/s 读取2.75 -> 3.1G/s——测速工具Mac版本DiskSpeedTest，没有持续压力测试（软件自带压力测试最多是5G） | 939                               | 狗东                                                         |
-| 风扇      | 猫头鹰静音风扇NH-L9i（淘宝有卖家专门给风扇喷涂石墨烯，导热效果更好，本人没有试验过） | 300                               | 狗东                                                         |
-| 无线网卡  | M2接口转接卡+苹果原装拆机卡BCM94360CS2 （免驱动） + 双天线 5月底更新：**[IntelWIFI 网卡也能用啦](http://bbs.pcbeta.com/viewthread-1856465-1-1.html)** | 182                               | 淘宝                                                         |
-| CPU       | 8500 散片，拿到手开机电压 0.98v 并且正常使用中               | 1356                              | 狗东第三方卖家（略贵一点点）                                 |
-| 内存      | 威刚8g 2666Hz * 2                                            | 544                               | 狗东（最贵的时候买入，肠子都悔青了，建议大家使用比价软件查看历史价格） |
-| 显示器    | 便携 2k 显示器                                               | 658                               | 淘宝                                                         |
-| 机箱+主板 | deskmini 310                                                 | 979                               | 狗东                                                         |
+| 项目类型  | 具体型号                                                     | 价钱（RMB）（2020.3月份中旬购买自从疫情，全部涨价） | 购买渠道                                                     |
+| --------- | ------------------------------------------------------------ | --------------------------------------------------- | ------------------------------------------------------------ |
+| 固态      | 海康威视 c2000 pro 1TB （没有一赔三，有的话麻烦请告知渠道，赔偿分你一些，嘻嘻）<br/>1. 写入2.7G/s 读取3.1g/s——测速工具Mac版本的DiskSpeedTest，没有持续压力测试（软件自带压力测试最多是5G） <br/>2. 实测体验：3.0 U盘（读取速度100MB/s）拷贝28G多到这块盘，不到3分钟。<br/>3. 占满200多G以后，日常使用中，随机测速：写入2.55 -> 2.78G/s 读取2.75 -> 3.1G/s——测速工具Mac版本DiskSpeedTest，没有持续压力测试（软件自带压力测试最多是5G） | 939                                                 | 狗东                                                         |
+| 风扇      | 猫头鹰静音风扇NH-L9i（淘宝有卖家专门给风扇喷涂石墨烯，导热效果更好，本人没有试验过） | 300                                                 | 狗东                                                         |
+| 无线网卡  | M2接口转接卡+苹果原装拆机卡BCM94360CS2 （免驱动） + 双天线 5月底更新：**[IntelWIFI 网卡也能用啦](http://bbs.pcbeta.com/viewthread-1856465-1-1.html)** | 182                                                 | 猫厂                                                         |
+| CPU       | 8500 散片，拿到手开机电压 0.98v 并且正常使用中               | 1356                                                | 狗东第三方卖家（略贵一点点）                                 |
+| 内存      | 威刚8g 2666Hz * 2                                            | 544                                                 | 狗东（最贵的时候买入，肠子都悔青了，建议大家使用比价软件查看历史价格） |
+| 机箱+主板 | deskmini 310                                                 | 979                                                 | 狗东                                                         |
 
-自从疫情，全部涨价，我购买日期3月中旬，年前起码便宜六七百。小白第一次装机，没有旧配件和垃圾佬的水平，咸鱼也不碰，以后捡垃圾玩玩😆，不着急的小伙伴等6.18或者疫情过去又或者Intel新一代的CPU发布，到那时候价格比较香。
+**注意：**Deskmini-h310 主板功耗选项 Auto（主板有功耗锁）
 
-### 4K IPS显示器推荐
+据 @https://github.com/twotreeszf （配置：9900t ES 1.7Ghz基频版本，TDP：35W）反馈，所有测试截图均在下面。知乎上其他网友也是这样的设置，才发挥出了相同的效果。**从得到有限样本总结来说，intel 9900t低压CPU的Auto策略偏保守，还要注意主板本身对CPU功耗而不是TDP的限制，非低功耗版本的i7 i9 CPU由于这个限制，不能完全发挥**。大家根据自身CPU设置合适值来物尽其用！
+
+| 在主板bios设置里，“长时间功耗限制”，“短时间功耗设置”都改为65w(主板原先的默认值为：Auto) | 多核GeekBench跑分性能提升近1000分，多核跑分超过2019 15寸 Macbook Pro顶配版跑分（Macbook CPU 15寸顶配是 i9-9880h），8核都能够3.3GHz左右 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="README.assets/disable_auto-tdp-lock.jpg" alt="1122" style="zoom:20%;" /> | <img src="README.assets/9900t-es-1.7Base-GeekBench.png" style="zoom:22%;" /> |
+
+## 装机过程
+
+[Deskmini-h310 小白硬件组装视频教程](https://www.bilibili.com/video/BV1bt411m77L/?spm_id_from=333.788.videocard.0)，镜像使用的是：黑果小兵网站下载镜像以后，注意校验下载的镜像有木有损坏，**必须校验**，不能跳过！
+
+### Bios设置
+
+我的bios版本是P4.2，插入U盘开始装MacOS开始前设置
+
+- Load UEFI Defaults(F9)
+
+- Advanced
+
+  - CPU Chip Set
+    - Vt-d:  Disabled,
+    - Onboard HD Audio: Enabled
+  - CPU Configuration
+
+    - CPU C STATE SUPPORT: Enabled
+  - CFG Lock: Disabled (**注意**：这个设置才能原生电源管理)
+  - USB Configuration
+
+    - XHCI Hand-off：Enabled
+  - Super IO Configuration
+
+    - Serial Port: Disabled（必须）
+  - Security
+  - Secure Boot: Disabled(by default)
+  - Boot
+  - CSM enable: only UEFI
+
+**注意**：装机和黑果有风险，注意重要的数据提前备份。
+
+[孰优孰劣？OC引导与clover引导对比，现在有必要强行更换OC引导吗](https://www.bilibili.com/video/BV1zE411T7RB)
+
+1. **Clover引导**
+
+   - 小白根据这个 [视频教程](https://www.bilibili.com/video/BV1da4y147my) ：按照视频教程操作到 13:11，因为m2型号的固态硬盘上只安装MacOS，所以只进行到 13:11，**然后不要拔掉U盘**，使用Clover Configurator工具将U盘里面的efi（注意不是winpe目录下的efi，而是跟winpe同一级目录的efi文件夹）替换掉装完机的MacOS系统上的EFI。下一步就是（这一步作用——防止跟别人一样进而影响到你的苹果账号的使用，严重的话会被苹果封号）：[更改三码](https://blog.csdn.net/weixin_43912833/article/details/102408559) 。
+
+   [【知其然01】黑果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
+
+   [【知其然02】黑果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
+
+2. **OpenCore引导**
+
+   - 跟Clover引导的安装过程一样，只不过替换U盘中的系统EFI的时候，采用xjn大佬博客分享的EFI，然后进行了细微调整。
+   - 视频
+     - [Intel Coffee Lake平台完美黑果系统安装教程（Opencore+Catalina15.4）](https://www.bilibili.com/video/BV1hA411t7dr/)，up主带你亲自阅读官方教程，一步步配置参数和驱动讲解，讲解参数含义与作用。[【司波图】10代最强带核显黑苹果装机实战及性能演示，附安装所需的注意事项](https://www.bilibili.com/video/BV17t4y1y7uu)
+     - 油管从零开始的教程：[To create a vanilla hackintosh from scratch, you can follow this guide](https://www.youtube.com/watch?v=6KGuINOyHh0)
+     - [黑果OpenCore引导配置教程01：EFI文件夹的整理](https://www.bilibili.com/video/BV1gE411L7Sw)
+     - [黑果OpenCore引导配置教程02：config的详细设置](https://www.bilibili.com/video/BV1nE411j7Wm/?spm_id_from=333.788.videocard.0)
+     - 【知其然03】那些黑果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
+
+## 4K IPS显示器推荐
 
 按🐶东性价比由低到高：
 
@@ -81,65 +139,14 @@
 
 **注明：** 每个牌子都有不同系列显示器，都有高中低端系列，主要关注这些参数（ 大而全的小白科普文章[显示器选购中有哪些坑？2020 有哪些显示器推荐？ - Orange的文章 - 知乎](https://zhuanlan.zhihu.com/p/111413153) ）：
 
-- **色域、色域覆盖（不等于色域容积）、色准、色深**：苹果电脑都是是Display P3不是DCI-P3，[色域是什么？ 显示器屏幕色域sRGB,NTSC,Adobe RGB,P3,PAL区别对比](https://zhuanlan.zhihu.com/p/136403493)
+- **色域、色域覆盖（不等于色域容积）、色准、色深、色温、白点**：苹果电脑都是是Display P3不是DCI-P3，[色域是什么？ 显示器屏幕色域sRGB,NTSC,Adobe RGB,P3,PAL区别对比](https://zhuanlan.zhihu.com/p/136403493)
 - **PPI**（Pixels Per Inch）：[分辨率和像素是什么关系？ - 小7的背包的回答 - 知乎](https://www.zhihu.com/question/21149600/answer/724435661)
 - **静态对比度（不是动态对比度）**：屏幕能显示的最亮和最暗的亮度比值，比值越大那么从最暗到最亮的渐变变化阶梯数就越多，画面层次就越丰富，表现力就更强，特别显示暗部和阴影的时候不会显示一团黑而是渐变的，即有层次。
 - **面板**：[显示器TN、IPS、VA面板类型哪个好? - 林远的回答 - 知乎](https://www.zhihu.com/question/57854431/answer/868319230) 
-- 出厂是否校色：屏幕想显示某个颜色到真实世界中那个颜色的偏差，偏差控制越小那么就越接近现实世界真实值。这个偏差又称：Delta E；出厂校色就是产品出厂之前厂家帮你校色了，然后送到经销商手上。
+- 出厂校色就是产品出厂之前厂家帮你校色了，然后送到经销商手上。
 - 三包政策。
 
 **注意：** 有Type C接口可以给笔记本电脑反向充电，这样连一根线到显示器，笔记本又可以充电又可以扩展屏幕。桌面干净整洁。
-
-## 装机过程
-
-[Deskmini-h310 小白硬件组装视频教程](https://www.bilibili.com/video/BV1bt411m77L/?spm_id_from=333.788.videocard.0)
-
-### Bios设置（P4.2）插入U盘开始装MacOS开始前设置
-
-- Load UEFI Defaults(F9)
-
-- Advanced
-
-    - CPU Chip Set
-        - Vt-d:  Disabled,
-        - Onboard HD Audio: Enabled
-    - CPU Configuration
-
-        - CPU C STATE SUPPORT: Enabled
-    - CFG Lock: Disabled (**注意**：解除这个才能原生电源管理)
-    - USB Configuration
-
-        - XHCI Hand-off：Enabled
-    - Super IO Configuration
-
-        - Serial Port: Disabled（必须）
-    - Security
-    - Secure Boot: Disabled(by default)
-    - Boot
-    - CSM enable: only UEFI
-
-**注意**：装机和黑果有风险，注意重要的数据提前备份。**都是小白教程，且带有工具下载链接**：
-
-[孰优孰劣？OC引导与clover引导对比，现在有必要强行更换OC引导吗](https://www.bilibili.com/video/BV1zE411T7RB)
-
-1. **Clover引导**
-
-    - 小白根据这个 [视频教程](https://www.bilibili.com/video/BV1da4y147my) ：按照视频教程操作到 13:11，因为m2型号的固态硬盘上只安装MacOS，所以只进行到 13:11，**然后不要拔掉U盘**，使用Clover Configurator工具将U盘里面的efi（注意不是winpe目录下的efi，而是跟winpe同一级目录的efi文件夹）替换掉装完机的MacOS系统上的EFI。下一步就是（这一步作用——防止跟别人一样进而影响到你的苹果账号的使用，严重的话会被苹果封号）：[更改三码](https://blog.csdn.net/weixin_43912833/article/details/102408559) 。
-
-    [【知其然01】黑果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
-
-    [【知其然02】黑果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
-
-2. **OpenCore引导**
-
-    - 跟Clover引导的安装过程一样，只不过替换U盘中的系统EFI的时候，采用xjn大佬博客分享的EFI，然后进行了细微调整。
-    - 视频
-        - [Intel Coffee Lake平台完美黑果系统安装教程（Opencore+Catalina15.4）](https://www.bilibili.com/video/BV1hA411t7dr/)，up主带你亲自阅读官方教程，一步步配置参数和驱动讲解，讲解参数含义与作用。[【司波图】10代最强带核显黑苹果装机实战及性能演示，附安装所需的注意事项](https://www.bilibili.com/video/BV17t4y1y7uu)
-        - 油管从零开始的教程：[To create a vanilla hackintosh from scratch, you can follow this guide](https://www.youtube.com/watch?v=6KGuINOyHh0)
-        - [黑果OpenCore引导配置教程01：EFI文件夹的整理](https://www.bilibili.com/video/BV1gE411L7Sw)
-        - [黑果OpenCore引导配置教程02：config的详细设置](https://www.bilibili.com/video/BV1nE411j7Wm/?spm_id_from=333.788.videocard.0)
-        - 【知其然03】那些黑果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
-        
 
 ## 资源
 
@@ -159,37 +166,8 @@
 10. **设备属性转换工具库**：https://github.com/acidanthera/gfxutil
 11. **OC引导台式机官方教程**：https://dortania.github.io/OpenCore-Desktop-Guide/
 12. **OC引导官方库**：https://github.com/acidanthera/OpenCorePkg
+13. **Hackintool： 实现USB定制，视频输出端口匹配等功能** ：https://github.com/headkaze/Hackintool
 
-#### 本机型相关资源
-
-1. 开启HiDPI
-
-    [HiDPI是什么？以及黑果如何开启HiDPI](https://www.sqlsec.com/2018/09/hidpi.html)
-
-2. HWP：Intel 的 HARDWARE-CONTROLLED PERFORMANCE STATES (HWP)，启用HWP即可锁住CPU最高频率，开启性能模式以后，我的i5 8500 CPU一直维持在4GHz上下。**注意**：我上传的EFI没有开启这个功能，原因是：不是通用需求，如有需要按照下列教程自行更改：
-
-    - [一条命令教你如何确认自己的机型及如何开启HWP](https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html)
-    - [启用HWP 锁定CPU最高频率 让CPU展示其真正实力吧!~](http://bbs.pcbeta.com/viewthread-1798057-1-1.html)
-
-3. **Deskmini-h310 主板功耗选项 Auto** （主板有功耗锁）
-
-   据 @https://github.com/twotreeszf （配置：9900t ES 1.7Ghz基频版本，TDP：35W）反馈，在主板bios设置里，将CPU配置选项中“长时间功耗限制”，“短时间功耗设置”都改为65w(主板原先默认值为：Auto)，多核GeekBench跑分性能提升近1000分，多核跑分超过2019 15寸 Macbook Pro顶配版跑分（Macbook CPU 15寸顶配是 i9-9880h），全核8核能够3.3GHz左右，能够达到网上大多数对这颗U的普遍上限值，所有测试截图均在下面。知乎上其他网友也是这样的设置，才发挥出了相同的效果。**从得到有限样本总结来说，intel 9900t低压CPU的Auto策略偏保守，还要注意主板本身对CPU功耗而不是TDP的限制**。大家根据自身CPU设置合适值来物尽其用！
-   
-    [![bios设置图，用梯子才能看到图](https://github.com/SnailDove/deskmini-h310/raw/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/disable_auto-tdp-lock.jpg)](https://github.com/SnailDove/deskmini-h310/blob/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/disable_auto-tdp-lock.jpg)
-   
-    [![9900tES 跑分图，用梯子才能看到图](https://github.com/SnailDove/deskmini-h310/raw/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/9900t-es-1.7Base-GeekBench.png)](https://github.com/SnailDove/deskmini-h310/blob/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/9900t-es-1.7Base-GeekBench.png)
-   
-   ![9900tES 满载的Intel Power Gadget图，用梯子才能看到图](https://github.com/SnailDove/deskmini-h310/raw/01b9cf14b1ae0c6f8f2e7dfa8b21a1ca840f2c8b/i9-9900t-es-1.7Base_Intel-Power-Gadget.png)
-
-2. 镜像使用的是：
-
-    - 黑果小兵分享的 [10.15.4 19E287 双EFI 分区版](https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html#more)
-
-    - 下载镜像以后，注意校验下载的镜像有木有损坏，**必须校验**，不能跳过！
-
-        黑果小兵的 `macOS Catalina 10.15.4(19E287) Installer for Clover 5109 and WEPE Support UEFI and MBR.dmg` 的MD5值为 `c84ebeeb84c074729c11afca91c6f952`
-        
-        **重要提示**：建议大家到黑果小兵公众号下载多种引导集一身的镜像，这样子可以在 Linux grub，WinPE，OC，Clover引导中随意切换，可玩性和日后升级都比较方便。
 
 #### 黑果小白上手学习资源
 
@@ -256,8 +234,6 @@
 ## 使用过程的问题
 
 ### 台式电脑突然断电后无法启动
-
-试一试：
 
 1. 主板放下电。关机，插排电源也关掉。把主板BIOS电池取下。五分钟后，重新插入BIOS电池，开机，如果能开，选择Load Optimize Default 载入BIOS默认设置。
 2. 电源这边，可以找其他电源替换一下，或者把自己的电源用在其他机器试一下。另外不要忽视电源线的问题。
