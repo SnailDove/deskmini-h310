@@ -110,12 +110,10 @@
 [孰优孰劣？OC引导与clover引导对比，现在有必要强行更换OC引导吗](https://www.bilibili.com/video/BV1zE411T7RB)
 
 1. **Clover引导**
-
-   - 小白根据这个 [视频教程](https://www.bilibili.com/video/BV1da4y147my) ：按照视频教程操作到 13:11，因为m2型号的固态硬盘上只安装MacOS，所以只进行到 13:11，**然后不要拔掉U盘**，使用Clover Configurator工具将U盘里面的efi（注意不是winpe目录下的efi，而是跟winpe同一级目录的efi文件夹）替换掉装完机的MacOS系统上的EFI。下一步就是（这一步作用——防止跟别人一样进而影响到你的苹果账号的使用，严重的话会被苹果封号）：[更改三码](https://blog.csdn.net/weixin_43912833/article/details/102408559) 。
-
-   [【知其然01】黑果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE)
-
-   [【知其然02】黑果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
+- 小白根据这个 [视频教程](https://www.bilibili.com/video/BV1da4y147my) ：按照视频教程操作到 13:11，因为m2型号的固态硬盘上只安装MacOS，所以只进行到 13:11，**然后不要拔掉U盘**，使用Clover Configurator工具将U盘里面的efi（注意不是winpe目录下的efi，而是跟winpe同一级目录的efi文件夹）替换掉装完机的MacOS系统上的EFI。下一步就是（这一步作用——防止跟别人一样进而影响到你的苹果账号的使用，严重的话会被苹果封号）：[更改三码](https://blog.csdn.net/weixin_43912833/article/details/102408559) 。
+   - [【知其然01】黑果CLOVER引导的目录构成及详解](https://www.bilibili.com/video/BV1BE411j7GE) 
+   - [【知其然02】黑果clover引导，如何配置属于自己的EFI？](https://www.bilibili.com/video/BV17E411p7hh/)
+   - [从零玩转黑白苹果——**Clover引导升级**](https://www.bilibili.com/video/BV14K4y1r7TQ?from=search&seid=9191168693124119756)
 
 2. **OpenCore引导**
 
@@ -126,6 +124,7 @@
      - [黑果OpenCore引导配置教程01：EFI文件夹的整理](https://www.bilibili.com/video/BV1gE411L7Sw)
      - [黑果OpenCore引导配置教程02：config的详细设置](https://www.bilibili.com/video/BV1nE411j7Wm/?spm_id_from=333.788.videocard.0)
      - [【知其然03】那些黑果安装使用中常见的名词](https://www.bilibili.com/video/BV1Z7411n7fJ/?spm_id_from=333.788.videocard.1)
+   - [**升级OC引导**和最好用的配置工具介绍](https://www.bilibili.com/video/BV11i4y1L7Mn)
 
 ## 4K IPS显示器推荐
 
