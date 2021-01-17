@@ -4,14 +4,18 @@
 
 ### 版本迭代
 
-本人的 **Clover EFI** 和 **OC EFI** : 适配以下系统版本（**直接升级**：15.4->15.5->15.6->15.7），备注：Clover EFI的15.6及以后的版本，已经不再维护 2020.10.27记。
+本人的 **Clover EFI**  : 适配以下系统版本（**直接升级**：15.4->15.5->15.6->15.7），备注：Clover EFI的15.6及以后的版本，已经不再维护 2020.10.27记。
+
+本人的 **OC EFI** ：适配 10.15.x Catalina 以及 11.1 Big Sur
+
+![](README.assets/big sur11.1.jpg)
 
 1. 双屏输出时，15.5及以后版本系统的HDMI口解决方案如下
    
     - **验证可行方案1**：[祖传土方根治10.15.5正式版UHD630黑屏问题](http://bbs.pcbeta.com/viewthread-1859830-1-1.html)，感谢群友 @https://github.com/twotreeszf 的验证 备注：2020.06记
     - **验证可行方案2**: [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen/releases/) （更新到1.4.1以后） ，感谢群友 @https://github.com/xiangsanliu 验证此方案的可行性！—— 备注：2020.10.27记
     
-2. **Big Sur 11.0.1 正式版本的EFI**，欢迎加入我们（主要是程序员，平常忙于工作，一般是休闲时间互相帮忙）：
+2. deskmini爱好者群：
 
     ![deskmini-h310_黑果群，用梯子才能看到，主要是程序员，平常忙于工作，一般是休闲时间互相帮忙](README.assets/deskmini-h310_黑果群.png)
 
@@ -240,13 +244,23 @@
 
 ## 致谢
 
-1. https://github.com/cnsilvan/deskmini310_hackintosh
-2. https://github.com/zsyshuyang/Hackintosh-EFI-For-Deskmini-310-i5-9400-DW1560
-3. https://github.com/liminghuang/asrock_deskmini310_hackintosh
-4. https://github.com/yuqi/Deskmini-310-Hackintosh
-5. https://github.com/isNextJuly/Hackintosh-EFI-for-deskmini-310-i7-8700
-6. https://github.com/leogitpro/Hackintosh-DeskMini310
-7. https://blog.xjn819.com/?p=7
-8. https://github.com/xjn819/Hackintosh-Deskmini310-EFI
-9. https://github.com/csrutil/DeskMini
+1. https://github.com/appleserial/DeskMini
+
+2. https://github.com/xjn819/Hackintosh-Deskmini310-EFI
+
+3. https://github.com/csrutil/DeskMini
+
+4. https://github.com/cnsilvan/deskmini310_hackintosh
+
+5. https://github.com/zsyshuyang/Hackintosh-EFI-For-Deskmini-310-i5-9400-DW1560
+
+6. https://github.com/liminghuang/asrock_deskmini310_hackintosh
+
+7. https://github.com/yuqi/Deskmini-310-Hackintosh
+
+8. https://github.com/isNextJuly/Hackintosh-EFI-for-deskmini-310-i7-8700
+
+9. https://github.com/leogitpro/Hackintosh-DeskMini310
+
+   
 
