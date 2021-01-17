@@ -6,9 +6,9 @@
 
 本人的 **Clover EFI**  : 适配以下系统版本（**直接升级**：15.4->15.5->15.6->15.7），备注：Clover EFI的15.6及以后的版本，已经不再维护 2020.10.27记。
 
-本人的 **OC EFI** ：适配 10.15.x Catalina 以及 11.1 Big Sur
+本人的 **OC EFI** ：适配 10.15.x Catalina 以及 11.1 Big Sur。
 
-![](README.assets/big sur11.1.jpg)
+![](./README.assets/big sur11.1.jpg)
 
 1. 双屏输出时，15.5及以后版本系统的HDMI口解决方案如下
    
