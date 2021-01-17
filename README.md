@@ -8,7 +8,7 @@
 
 本人的 **OC EFI** ：适配 10.15.x Catalina 以及 11.1 Big Sur。
 
-![](./README.assets/big sur11.1.jpg)
+<img src="./README.assets/big sur11.1.jpg" alt="111" style="zoom:100%;" />
 
 1. 双屏输出时，15.5及以后版本系统的HDMI口解决方案如下
    
