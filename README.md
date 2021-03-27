@@ -66,7 +66,7 @@
 | --------- | ------------------------------------------------------------ | --------------------------------------------------- | ------------------------------------------------------------ |
 | 固态      | 海康威视 c2000 pro 1TB （没有一赔三，有的话麻烦请告知渠道，赔偿分你一些，嘻嘻）<br/>1. 写入2.7G/s 读取3.1g/s——测速工具Mac版本的DiskSpeedTest，没有持续压力测试（软件自带压力测试最多是5G） <br/>2. 实测体验：3.0 U盘（读取速度100MB/s）拷贝28G多到这块盘，不到3分钟。<br/>3. 占满200多G以后，日常使用中，随机测速：写入2.55 -> 2.78G/s 读取2.75 -> 3.1G/s——测速工具Mac版本DiskSpeedTest，没有持续压力测试（软件自带压力测试最多是5G） | 939                                                 | 狗东                                                         |
 | 风扇      | 猫头鹰静音风扇NH-L9i（淘宝有卖家专门给风扇喷涂石墨烯，导热效果更好，本人没有试验过） | 300                                                 | 狗东                                                         |
-| 无线网卡  | M2接口转接卡+苹果原装拆机卡BCM94360CS2 （免驱动） + 双天线 5月底更新：**[IntelWIFI 网卡也能用啦](http://bbs.pcbeta.com/viewthread-1856465-1-1.html)** | 182                                                 | 猫厂                                                         |
+| 无线网卡  | M2接口转接卡+苹果原装拆机卡BCM94360CS2 （免驱动） + 双天线 5月底更新：**[IntelWIFI 网卡也能用啦](https://openintelwireless.github.io/General/Installation.html)** | 182                                                 | 猫厂                                                         |
 | CPU       | 8500 散片，拿到手开机电压 0.98v 并且正常使用中               | 1356                                                | 狗东第三方卖家（略贵一点点）                                 |
 | 内存      | 威刚8g 2666Hz * 2                                            | 544                                                 | 狗东（最贵的时候买入，肠子都悔青了，建议大家使用比价软件查看历史价格） |
 | 机箱+主板 | deskmini 310                                                 | 979                                                 | 狗东                                                         |
@@ -164,7 +164,7 @@
 5. **Virtual SMC 虚拟的系统控制器驱动**：https://github.com/acidanthera/VirtualSMC。
 6. **Intel Onboard Ethernet LAN（local area network） 因特尔板载的以太网局域网驱动**：https://github.com/acidanthera/IntelMausi
 7. **USB 口驱动**：https://github.com/RehabMan/OS-X-USB-Inject-All 英文教程：https://www.tonymacx86.com/threads/the-new-beginners-guide-to-usb-port-configuration.286553/ 中文在小兵大哥的博客上有。
-8. **Intel WI-FI 网卡固件库**：https://github.com/zxystd/itlwm 有介绍可以使用的intel网卡型号，作者亲自写的使用帖子 ：http://i.pcbeta.com/space-uid-3537092.html。
+8. **Intel WI-FI 网卡固件库**：https://openintelwireless.github.io/General/Installation.html 有介绍可以使用的intel网卡型号
 9. **Intel Bluetooth 固件库**： https://github.com/zxystd/IntelBluetoothFirmware，教程如同上条。
 10. **设备属性转换工具库**：https://github.com/acidanthera/gfxutil
 11. **OC引导台式机官方教程**：https://dortania.github.io/OpenCore-Desktop-Guide/
