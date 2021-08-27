@@ -6,7 +6,7 @@
 
 本人的 **Clover EFI**  : 适配以下系统版本（**直接升级**：15.4->15.5->15.6->15.7），备注：Clover EFI的15.6及以后的版本，已经不再维护 2020.10.27记 。
 
-本人的 **OC EFI** ：适配 10.15.x Catalina -> Big Sur 11.0 -> 11.1 -> 11.2.3 。
+本人的 **OC EFI** ：适配 10.15.x Catalina -> Big Sur 11.0 -> 11.1 -> 11.2.3 -> 11.5.2。
 
 <img src="README.assets/system_overview.png" alt="11" style="zoom:75%;" />
 
