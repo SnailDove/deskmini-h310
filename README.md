@@ -248,8 +248,6 @@
 
 2. https://github.com/xjn819/Hackintosh-Deskmini310-EFI
 
-3. https://github.com/csrutil/DeskMini
-
 4. https://github.com/cnsilvan/deskmini310_hackintosh
 
 5. https://github.com/zsyshuyang/Hackintosh-EFI-For-Deskmini-310-i5-9400-DW1560
