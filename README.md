@@ -105,9 +105,9 @@
 
     - Serial Port: Disabled（必须）
   - Security
-  - Secure Boot: Disabled(by default)
+    - Secure Boot: Disabled(by default)
   - Boot
-  - CSM enable: only UEFI
+    - CSM enable: only UEFI
 
 **注意**：装机和黑果有风险，注意重要的数据提前备份。
 
