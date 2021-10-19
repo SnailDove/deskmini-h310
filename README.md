@@ -8,7 +8,7 @@
 
 <img src="README.assets/system_overview.png" alt="11" style="zoom:75%;" />
 
-![deskmini-h310_黑果群，用梯子才能看到，主要是程序员，平常忙于工作，一般是休闲时间互相帮忙](README.assets/deskmini-h310_黑果群.png)
+![deskmini-h310_电脑爱好者群，科学上网才能看到，平常忙于工作，一般是休闲时间互相帮忙](README.assets/deskmini-h310_fan_group.png)
 
 ## 装机结果
 
@@ -67,7 +67,7 @@
 
 ## 装机过程
 
-[Deskmini-h310 小白硬件组装视频教程](https://www.bilibili.com/video/BV1bt411m77L/?spm_id_from=333.788.videocard.0)，镜像使用的是：黑果小兵网站下载镜像以后，注意校验下载的镜像有木有损坏，**必须校验**，不能跳过！
+[Deskmini-h310 主机组装视频教程](https://www.bilibili.com/video/BV1bt411m77L/?spm_id_from=333.788.videocard.0)，镜像使用的是：黑果小兵网站下载镜像以后，注意校验下载的镜像有木有损坏，**必须校验**，不能跳过！
 
 ### Bios设置
 
@@ -101,7 +101,7 @@
 
 1. **Clover引导**
 - 小白根据这个 [视频教程](https://www.bilibili.com/video/BV1da4y147my) ：按照视频教程操作到 13:11，因为m2型号的固态硬盘上只安装MacOS，所以只进行到 13:11，**然后不要拔掉U盘**，使用Clover Configurator工具将U盘里面的efi（注意不是winpe目录下的efi，而是跟winpe同一级目录的efi文件夹）替换掉装完机的MacOS系统上的EFI。下一步就是（这一步作用——防止跟别人一样进而影响到你的苹果账号的使用，严重的话会被苹果封号）：[更改三码](https://blog.csdn.net/weixin_43912833/article/details/102408559) 。
-   
+  
 2. **OpenCore引导**
 
    - 跟Clover引导的安装过程一样，只不过替换U盘中的系统EFI的时候。
