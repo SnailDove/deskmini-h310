@@ -4,9 +4,11 @@
 
 ### 版本迭代
 
-本人的 **OC EFI** ：适配 11.5~11.6。
+本人的 **OC EFI** ：适配 Big Sur 11.6 ~ Ventura 13.3.1。
 
-<img src="README.assets/system_overview.png" alt="11" style="zoom:75%;" />
+<img src="README.assets/system_overview.png" alt="11" style="zoom:50%;" />
+
+<img src="README.assets/Ventura-13.3.jpg" alt="11" style="zoom:50%;" />
 
 ![deskmini-h310_电脑爱好者群，科学上网才能看到，平常忙于工作，一般是休闲时间互相帮忙](README.assets/deskmini-h310_fan_group.png)
 
@@ -244,5 +246,4 @@
 9. https://github.com/leogitpro/Hackintosh-DeskMini310
 
    
-
 
