@@ -8,7 +8,7 @@
 
 本人的 **OC EFI** ：适配 Big Sur 11.6 ~ Ventura 13.3.1。
 
-<img src="README.assets/Ventura-13.3.1.jpg" alt="11" style="zoom:50%;" />
+<img src="README.assets/Ventura-13.3.1.jpg" alt="Ventura Picture" style="zoom:50%;" />
 
 ![deskmini-h310_电脑爱好者群，科学上网才能看到，平常忙于工作，一般是休闲时间互相帮忙](README.assets/deskmini-h310_fan_group.png)
 
